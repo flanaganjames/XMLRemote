@@ -1,3 +1,3 @@
-require './XMLWeb' 
+require './XMLRemote' 
 
 run Sinatra::Application
