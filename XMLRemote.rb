@@ -5,31 +5,36 @@ include REXML
 
 
 get '/' do
-    FileUtils.rm_rf(Dir.glob('uploads/*'))
+    #FileUtils.rm_rf(Dir.glob('uploads/*'))
     erb:choosefile
 end
 
 get '/nua' do
-    FileUtils.rm_rf(Dir.glob('uploads/*'))
+    #FileUtils.rm_rf(Dir.glob('uploads/*'))
     erb:choosefileNUA
 end
 
 get '/dqr' do
-    FileUtils.rm_rf(Dir.glob('uploads/*'))
+    #FileUtils.rm_rf(Dir.glob('uploads/*'))
     erb:choosefileDQR
 end
 
 
 post '/showclaris' do
     
-    File.open('uploads/' + params['myfile'][:filename], "w") do |f|
-        f.write(params['myfile'][:tempfile].read)
-    end
-    $thefile = params["myfile"][:filename]
+    #    File.open('uploads/' + params['myfile'][:filename], "w") do |f|
+    #    f.write(params['myfile'][:tempfile].read)
+    #    end
+    #@file = "uploads/" + params["myfile"][:filename]
+    #afile = File.new( @file )
     
-    @file = "uploads/" + params["myfile"][:filename]
-    afile = File.new( @file )
-    doc = REXML::Document.new afile
+    #aString = params['myfile'][:filename][:body]
+    #doc = REXML::Document.new afile
+    
+    $thefile = params["myfile"][:filename]
+    aString = params['myfile'][:tempfile].read
+    doc = REXML::Document.new aString
+
     $claris = []
     doc.elements.each("ns3:cclad/ns3:canonicalClarificationDocument/ns3:clarification") { |element|
         ahash = {}
@@ -44,14 +49,9 @@ post '/showclaris' do
 end
 
 post '/showevidenceNUA' do
-    File.open('uploads/' + params['myfile'][:filename], "w") do |f|
-        f.write(params['myfile'][:tempfile].read)
-    end
     $thefile = params["myfile"][:filename]
-    
-    @file = "uploads/" + params["myfile"][:filename]
-    afile = File.new( @file )
-    doc = REXML::Document.new afile
+    aString = params['myfile'][:tempfile].read
+    doc = REXML::Document.new aString
     $claris = []
     doc.elements.each("ns3:cclad/ns3:canonicalClarificationDocument/ns3:clarification") { |element|
         ahash = {}
@@ -66,14 +66,9 @@ post '/showevidenceNUA' do
 end
 
 post '/showclarisDQR' do
-    File.open('uploads/' + params['myfile'][:filename], "w") do |f|
-        f.write(params['myfile'][:tempfile].read)
-    end
     $thefile = params["myfile"][:filename]
-    
-    @file = "uploads/" + params["myfile"][:filename]
-    afile = File.new( @file )
-    doc = REXML::Document.new afile
+    aString = params['myfile'][:tempfile].read
+    doc = REXML::Document.new aString
     $claris = []
     doc.elements.each("ns2:DqrClarifications/Clarification") { |element|
         ahash = {}
