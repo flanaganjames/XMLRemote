@@ -1,0 +1,189 @@
+
+
+Stroke Neurology
+
+Patient:                 MRN: FIN: 
+Age:    58 years     Sex:   Female     DOB:   01/28/1954
+Associated Diagnoses:     None
+
+Author:    
+
+
+Consultation Information
+  Reason for consultation  :  AMS.  
+  Subjective: :  58 y/o woman presents with AMS. She is not abole to provide hx. She is
+   accompanied by a friend who reports that the patient was c/o a severe HA yesterday and went
+   home from work. She continued to have the HA today and the friend took the patient to her PCP.
+   She was normal up to this point. Apparently her physician recommended that she come to the ER.
+   Shortly after that she became obtunded. She was not able to speak for a period time. I saw her
+   in ER after her CTA was complete. By that time she was arousable, and able to say a few words,
+   but still obtunded. Her friend inidcated that the patient had taken some medication for the HA
+   yesterday, but did not take any today as far as she knew. .  
+  Other Problems
+  Allergy Profile :  .  
+  Allergy LIST:  
+
+  Actos  Darvocet-N 100
+
+
+  Medication List :  .  
+
+  Active Scheduled Medications 
+  enoxaparin 
+  40 mg, INJ, Subcut, Daily, 04/11/13 9:00:00 EDT, (Lovenox) 
+  metoclopramide 
+  10 mg, INJ, IV Push, Once, 04/10/13 16:00:00 EDT, Stop date 04/10/13 16:00:00 EDT 
+  Sodium Chloride 
+  10 mL, SYRINGE, IV Push, Q8H (Every 8 hours), 04/10/13 22:00:00 EDT, Flush 
+  Sodium Chloride 0.9% 1,000 mL 
+  1,000 mL, IV, 04/10/13 15:36:00 EDT, 1,000 mL/hr, Infuse over 1 HR 
+  Sodium Chloride 0.9% 1,000 mL 
+  1,000 mL, IV, 04/10/13 17:03:00 EDT, 75 mL/hr, Infuse over 13.3 HR 
+
+
+  Past Medical History :  .  
+   HEALTH HISTORY 
+   Cholecystectomy                                    Patient                  
+   Colon cancer                                       Patient                  
+   Diabetes mellitus                                  Patient                  
+   Hypercholesterolemia                               Patient                  
+   Hypertension                                       Patient                  
+   Migraine                                           Patient                  
+   Sleep apnea                                        Patient                  
+   TIA                                                Patient                  
+
+
+  Social History :       Occupation:  unable to obtain.  
+  Family History :  Not obtainable.  
+
+Review of Systems
+  Unable to obtain :  Due to altered mental status.  
+
+Physical Examination
+  VS/Measurements
+
+
+
+
+  VITALS:  
+  BP:   174 / 87   Pulse:    88  Temp:   99.2   Resp Rate:   18
+  Tmax:    99.2  Wt(kg):   129
+  Pain Score:   Pain Score   3    04/10/13 15:54  
+  O2 Sat:    99    04/10/13 14:40
+
+
+
+
+
+  HENT :  Normocephalic.  
+  Neck :  Supple.  
+  Neurologic :  Patient is arousable to mild stimulation, but does not maintain attention without
+     constant stimulation. She has a non-fluent aphasia. She is able to follow a few simple
+     commands with difficulty, but not others. Her speech is limited. CN 2-12 intact, but she
+     will not stick out her tongue, but appears normal as best I can tell. She moves all 4
+     extremities equally. Not able to cooperate with remainder of exam.    .  
+
+Objective
+  Radiology results :  ,  
+
+  COMPLETED RADIOLOGY IMAGING STUDIES:  
+
+  CT Angio Head W or W/WO Contra [Final] (04/10 1545): IMPRESSION: 1.Unremarkable intracranial
+     CTA. Dictating Dr.   Dictated 04/10/2013 Signing Dr. 
+
+  CT Head/Brain WO Contrast [Final] (04/10 1511): IMPRESSION: No acute intracranial abnormality.
+     No significant change.  Dictating Dr.   Dictated 04/10/2013 Signing 
+
+  XR Chest 1V [Final] (04/10 1459): Impression: No acute cardio pulmonary process. Dictating Dr.
+       Dictated 04/10/2013 Signing Dr. 
+
+  I reivewed the CTA head. There is not large vessel occlusion. Brain parenchyma is
+     unremarkable..  
+  Lab Results :  .  
+
+
+  LABORATORY RESULTS:  
+
+  Glucose POC TAM   04/10/13 15:05
+    Glu POC TAM                      338 H
+
+  CBC and Plt w Diff   04/10/13 15:00
+    Instr WBC                          6
+    WBC                                6
+    RBC                                4.61
+    HGB                               12.9
+    HCT                               40.4
+    MCV                               88
+    MCH                               28
+    MCHC                              32
+    RDW                               13.6
+    Platelet                         229
+    MPV                               11.1
+    NRBC Absolute                      0
+
+  Auto Diff   04/10/13 15:00
+    Neutro Auto                       45
+    Lymph Auto                        49 H
+    Mono Auto                          6
+    Eos Auto                           0
+    Basophil Auto                      0
+    Neutro Absolute               
+                                       2.69
+    Lymph Absolute                     2.95
+    Mono Absolute                      0.34
+    Eos Absolute                       0.03
+    Basophil  Absolute                 0.01
+
+
+  Comp Metabolic Panel   04/10/13 15:00
+    Sodium                           134
+    Potassium                          3.3 L
+    Chloride                          95 L
+    CO2                               29
+    Glucose                          352 H
+    BUN                                8
+    Creatinine                         0.6
+    Calcium                            8.9
+    Total Protein                      7.4
+    Albumin                            3.6
+    Bili Total                         0.4
+    Alk Phos                          79
+    AST                                8
+    ALT (SGPT)                        10 L
+
+  Troponin T QuaNT   04/10/13 15:00
+    Trop T                             0.01
+
+  Renal Function Index   04/10/13 15:00
+    GFR                           >   110
+
+  PTT   04/10/13 15:00
+    PTT                               28
+
+  Prothrombin Time with INR   04/10/13 15:00
+    PT                                13.1
+    INR                                1
+
+
+
+Review / Management
+  Diagnosis/Impression :   58 y/o woman with AMS and aphasia. Presentation would be atypical
+     for stroke. An ischemic event of sufficient size to cause such symptoms should be readily
+     apparent on CTA. Also, the lack of motor involvement or other focal signs make an acute
+     stroke less likely. Her presentation with progressive HA and AMS and now focal deficit is
+     very concerning for meningitis..  
+  Plan :  I would recommend lumbar puncture to evaluate for infection. 
+
+  I would also start empiric tx for meningitis with antibiotics and acyclovir. 
+
+  An MRI would be helpful after the LP has been done and tx started. 
+
+  Will follow
+
+  Thank you for the consultation..  
+
+[Electronically Signed By:]  
+__________________________________________________________ 
+  
+On, 04/10/2013 05:20 PM
+

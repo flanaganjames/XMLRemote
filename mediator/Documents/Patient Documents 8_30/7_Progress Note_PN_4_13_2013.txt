@@ -1,0 +1,153 @@
+
+
+Progress Note AHS
+
+Patient:    WICKER, PHYLLIS D             MRN: 523117              FIN: 4929308
+Age:    58 years     Sex:   Female     DOB:   09/28/54
+Associated Diagnoses:     None
+Author:    HARTLAGE MD, MATTHEW T
+
+Visit Information
+
+  Subjective: :  Pt reports her headache has improved with Fiorecet, but not has not completely
+
+   resolved. She is ambulating well and voiding well. She denies chest pain, difficulty
+   breathing, nausea or vomiting..  
+
+Review of Systems
+  Constitutional :  Negative except as documented in history of present illness.  
+
+Physical Examination
+  Intake and Output
+
+
+  Intake  & Output - 07:00 yesterday to 06:59 today  
+  Total Intake                                                                     1351    mL
+  Urine Output(voided + catheter)                        1250    mL
+  Total Output                                                                     1250    mL
+  Balance                                                                           101    mL
+
+  Urine Count                                                                              0
+
+  VS/Measurements
+
+
+
+  VITALS:  
+  BP:   160 / 90   Pulse:    82  Temp:   97.6   Resp Rate:   18
+  Tmax:    98.5  Wt(kg):   No weight recorded in last 24 hrs
+  Pain Score:   Pain Score   2    04/13/13 02:12  
+  O2 Sat:   100    04/13/13 08:10
+
+
+
+  General :  Alert and oriented, No acute distress.  
+  Eye :  Pupils are equal, round and reactive to light.  
+  HENT :  Normocephalic.  
+  Neck :  Supple.  
+  Respiratory :  Lungs are clear to auscultation.  
+  Cardiovascular :  Normal rate, Regular rhythm, No murmur, Good pulses equal in all
+     extremities,  Mild edema in lower extremities bilaterally..  
+  Gastrointestinal :  Soft, Non-tender.  
+  Musculoskeletal :  Normal range of motion.  
+  Integumentary :  Warm, Dry, Intact.  
+  Neurologic :  Alert, Oriented, No focal deficits.  
+  Psychiatric :  Cooperative, Appropriate mood   & affect.  
+
+Objective
+  Lab Results :  .  
+
+
+  LABORATORY RESULTS:  
+
+  Glucose POC TAM   04/13/13 07:26
+    Glu POC TAM                      184 H
+
+  CBC and Plt w Diff   04/13/13 04:05
+    Instr WBC                          4.5
+    WBC                                4.5 L
+    RBC                                4.25
+    HGB                           
+                                      11.9 L
+    HCT                               38.9
+    MCV                               92
+    MCH                               28
+    MCHC                              31 L
+    RDW                               13.9
+
+    Platelet                         208
+    MPV                               11.3
+    NRBC Absolute                      0
+
+  Auto Diff   04/13/13 04:05
+    Neutro Auto                       41
+    Lymph Auto                        48 H
+    Mono Auto                          6
+    Eos Auto                           4
+    Basophil Auto                      0
+    Neutro Absolute                    1.84
+    Lymph Absolute                     2.13
+    Mono Absolute                      0.29
+    Eos Absolute                       0.19
+    Basophil  Absolute                 0.01
+
+  Basic Metabolic Panel   04/13/13 04:05
+    Sodium                           137
+    Potassium                          3.3 L
+    Chloride                          99
+    CO2                               28
+    Glucose                          210 H
+    BUN                                9
+    Creatinine                         0.6
+    Calcium                            8.5 L
+
+  Renal Function Index   04/13/13 04:05
+    GFR                           >   110
+
+  Glucose POC TAM   04/12/13 19:40
+    Glu POC TAM                      227 H
+
+  Glucose POC TAM   04/12/13 16:00
+    Glu POC TAM                      222 H
+
+  Glucose POC TAM   04/12/13 12:16
+    Glu POC TAM                      302 H
+
+  Vancomycin Level Trough   04/12/13 10:30
+    Vanco Tr                          13.9
+
+
+Review / Management
+  Diagnosis/Impression :   Scribed by RN for Dr. 04/13/13  , Documentation
+     entered by scribe-- --as directed by me.  I have personally examined and
+     administered care to this patient.  Furthermore, this document accurately reflects all work,
+     treatment, procedures, and medical decision making performed by me.
+    .  
+  Plan :  
+  1.  Altered mental status, resolved
+  2.  Dysarthria.
+  3.  Fever.
+  4.  Headache.
+  5.  Hypertension.
+  6.  Hyperlipidemia.
+  7.  Insulin-dependent diabetes mellitus.
+  8.  Hyperglycemia
+
+  9.  Obesity.
+  10.  UTI
+  11.  Hypokalemia
+  12.  Deep vein thrombosis prophylaxis with Lovenox.
+
+
+  -DC home today
+  -Continue abx for UTI, script provided for PO Cipro for next 5 days
+  -Continue Fiorecet for headache, script provided
+  -Follow-up with neurology in 1-2 weeks
+  -No evidence of meningitis on CSF results--all cx   's negative
+  -Replace K today
+  -Continue home medications and follow up with PCP in 1-2 weeks
+    .  
+[Electronically Signed By:]  
+__________________________________________________________ 
+ On, 04/13/2013 03:05 PM
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+    targetNamespace="http://www.nuance.com/clu/capd/clarifications/document/canonical" xmlns="http://www.nuance.com/clu/capd/clarifications/document/canonical"
+    xmlns:cccd="http://www.nuance.com/clu/capd/clarifications/document/canonical" xmlns:ccct="http://www.nuance.com/clu/capd/clarifications/types/canonical"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xmime="http://www.w3.org/2005/05/xmlmime">
+
+    <xsd:import namespace="http://www.nuance.com/clu/capd/clarifications/types/canonical"
+        schemaLocation="capd-clarifications-canonicalTypes.xsd" />
+
+    <xsd:element name="cclad">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="canonicalClarificationDocument" type="cccd:CanonicalClarificationDocument" />
+            </xsd:sequence>
+            <xsd:attribute name="cavVersion" type="xsd:int" use="optional">
+                <xsd:annotation>
+                    <xsd:documentation>Associated annotation model version used to populate the
+                        document
+                        clarifications to propagate to bind in the
+                        resolved-capd-clarifications response
+                        XML
+                    </xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="CanonicalClarificationDocument">
+        <xsd:sequence>
+            <xsd:element name="documentId" type="xsd:string" />
+            <xsd:element name="clarification" type="ccct:Clarification" minOccurs="0"
+                maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>

@@ -1,0 +1,198 @@
+
+
+SUBJECTIVE:
+Much better today.  Speech much more fluent and coherent.  Still with mild HA.  No cp or dib.
+Toleratng diet.
+
+VITALS:  
+BP:   127 / 73   Pulse:    88  Temp:   98.3   Resp Rate:   18
+Tmax:   100.4  Wt(kg):   129
+Pain Score:  
+O2 Sat:    97    04/11/13 15:42
+
+EXAM:
+Alert, NAD
+OP clear
+RRR, no murmur
+CTA bilaterally
+Soft, nt/nd, normal bowel sounds
+No edema
+No focal neuro findings
+
+
+
+LABORATORY RESULT:  
+
+Cell Count CSF   04/11/13 12:55
+  Tube Num CSF   1
+  Appear CSF   Clear
+  Color CSF   Colorless
+  WBC CSF   0
+  Differential? CSF    No
+  RBC CSF   5
+
+Glucose CSF   04/11/13 12:55
+  Glucose CSF    170 C
+
+Protein Total CSF   04/11/13 12:55
+  Protein CSF   30
+
+Cell Count CSF   04/11/13 12:50
+  Tube Num CSF   4
+  Appear CSF   Clear
+  Color CSF   Colorless
+  RBC CSF   0
+  WBC CSF   0
+  Differential? CSF    No
+
+Glucose POC TAM   04/11/13 11:17
+  Glucose Level (POC)     386 H
+
+Glucose POC TAM   04/11/13 07:05
+  Glucose Level (POC)     364 H
+
+CBC and Plt w Diff   04/11/13 05:10
+  Instr WBC   6.4
+  WBC   6.4
+  Hct   37.7
+  MCV   90
+  MCH   28
+  MCHC   32
+  RDW   13.8
+  Platelet   192
+  MPV   10.7
+  Abs NRBCs   0.00
+  Hgb    11.9 L
+  RBC    4.18 L
+
+Basic Metabolic Panel   04/11/13 05:10
+  Sodium   138
+  Chloride   99
+  CO2   31
+  BUN   10
+  Creatinine   0.8
+  Glucose    342 H
+  Calcium    8.2 L
+  Potassium    3.5 L
+
+TSH   04/11/13 05:10
+  TSH   0.81
+
+
+Auto Diff   04/11/13 05:10
+  Neutrophils   40
+  Monocytes %   8
+  Eosinophil %   1
+  Basophil %   0
+
+  Neutro Absolute  2.56
+  Mono Absolute   0.51
+  Eos Absolute   0.05
+  Basophil  Absolute    0.02
+  Lymphs    51 H
+  Lymph Absolute   3.27 H
+
+Renal Function Index   04/11/13 05:10
+  GFR (MDRD)   89.1
+
+Glucose POC TAM   04/10/13 20:59
+  Glucose Level (POC)     386 H
+
+Urinalysis / Reflex Microscopic and Cult   04/10/13 16:50
+  UA Leuk Est   2+
+  UA Nitrite   Positive
+  UA Protein   Trace
+  UA Blood   Trace
+  UA Ketones   1+
+  UA Glucose   2+
+
+Urine Microscopic (no charge)   04/10/13 16:50
+  UA Squamous Epithelial    2+
+  UA Bacteria   2+
+
+Glucose POC TAM   04/10/13 15:05
+  Glucose Level (POC)     338 H
+
+Comp Metabolic Panel   04/10/13 15:00
+  Potassium    3.3 L
+  Chloride    95 L
+  Glucose    352 H
+  ALT    10 L
+
+Auto Diff   04/10/13 15:00
+  Lymphs    49 H
+
+Acetaminophen Level   04/10/13 15:00
+  Acetaminoph Lvl    < 15 L
+
+Salicylate Level   04/10/13 15:00
+  Salicylate Lvl   <3 L
+
+MEDICATIONS:  
+Active Scheduled Medications 
+acyclovir 
+630 mg, IV, Q8H (Every 8 hours), 04/11/13 6:00:00 EDT, 162.6 mL/hr 
+amLODIPine 5 mg TAB 
+5 mg, TAB, PO, Daily, 04/11/13 9:00:00 EDT, Hold for SBP    < 110 
+aspirin EC 81 mg EC TAB 
+81 mg, EC Tablet, PO, Daily, 04/11/13 9:00:00 EDT 
+cefTRIAXone 
+1 GM, IV, Daily, 04/11/13 19:00:00 EDT, 100 mL/hr 
+enoxaparin 40 mg/0.4 mL INJ 
+40 mg, INJ, Subcut, Daily, 04/11/13 9:00:00 EDT, (Lovenox) 
+glipiZIDE XL 5 mg TAB ER 
+10 mg, TAB ER, PO, Daily, 04/11/13 7:30:00 EDT 
+
+Insulin Glargine 1 unit/0.01 mL 10 mL MDV 
+20 Unit, INJ, Subcut, BID (2 times a day), NOW, 04/11/13 8:03:00 EDT 
+insulin lispro 100 units/mL MDV INJ 3 mL 
+
+HIGH DOSE, INJ, Subcut, WMHS (With meals and at bedtime), 04/11/13 12:00:00 EDT, (Humalog),
+
+ Correctional Dose Insulin High Dose Schedule 
+lisinopril 20 mg TAB 
+40 mg, TAB, PO, Daily, 04/11/13 9:00:00 EDT, Hold for SBP    < 110 
+simvastatin 20 mg TAB 
+20 mg, TAB, PO, QHS (At bedtime), 04/10/13 21:00:00 EDT 
+Sodium Chloride 0.9%  10 mL  Syringe 
+10 mL, SYRINGE, IV Push, Q8H (Every 8 hours), 04/10/13 22:00:00 EDT, Flush 
+Sodium Chloride 0.9% 1,000 mL 
+1,000 mL, IV, 04/10/13 17:03:00 EDT, 75 mL/hr, Infuse over 13.3 HR 
+vancomycin 
+1.5 GM, IV, Q12H (Every 12 hours), 04/11/13 11:00:00 EDT, 250 mL/hr 
+PRN Administrations in Last 24 Hours 
+acetaminophen 325 mg TAB 
+650 mg, TAB, PO, Q6H (Every 6 hours), PRN Other (see comment) Fever or Pain, Routine, 04/10/13
+ 17:06:00 EDT 
+
+ASSESSMENT/PLAN:
+1.  Altered mental status--??enecephalopathy due to infection.
+2.  Dysarthria.
+3.  Fever.
+4.  Headache.
+5.  Hypertension.
+6.  Hyperlipidemia.
+7.  Insulin-dependent diabetes mellitus.
+8.  Hyperglycemia
+9.  Obesity.
+10.  UTI
+11.  Hypokalemia
+12.  Deep vein thrombosis prophylaxis with Lovenox.
+
+-Continue abx for now
+-No evidence of meningitis on CSF results
+-Will stop vanco and acyclovir and continue rocephin
+-F/u all cultures
+-Increase lantus; change to high dose sliding scale
+-Titrate insulin as needed for glc conrol
+-Plan to d/c foley tomorrow if continues to improve
+-Replace K
+-Labs in AM
+-BP controlled on current meds
+-Neuro following
+
+[Electronically Signed By:]  
+__________________________________________________________ 
+ 
+On, 04/11/2013 06:59 PM
+

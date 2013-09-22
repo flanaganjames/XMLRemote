@@ -1,0 +1,272 @@
+mrn=55550002
+visitcode=2501
+authorid=JRF
+correlationid=
+lastName=Gauss
+firstName=Anga
+dateOfBirth=1943-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+
+Stroke neurology
+
+Patient:                 MRN: FIN: 
+Age:    58 years     Sex:   Female     DOB:   09/01/1954
+Associated Diagnoses:     None
+Author:    
+
+Visit Information
+  Subjective: :  Dramatic improvement in MS overnight. Now c/o mild HA, but otherwise much better.
+    
+  Allergy Profile :  .  
+  Allergy LIST:  
+
+
+  Actos  Darvocet-N 100
+
+
+
+
+Review of Systems
+  All other systems are negative
+
+Physical Examination
+  Intake and Output
+
+
+  Intake  & Output - 07:00 yesterday to 06:59 today  
+  Total Intake                                                                     1176.5  
+  Urine Output(voided + catheter)                         800    
+  Total Output                                                                      800    
+  Balance                                                                           376.5  
+
+  Urine Count                                                                              0
+
+
+  VS/Measurements
+
+
+
+  VITALS:  
+  BP:   143 / 76   Pulse:    83  Temp:   97.3   Resp Rate:   18
+  Tmax:   100.4  Wt(kg):   129
+  Pain Score:   Pain Score   5    04/11/13 08:53  
+  O2 Sat:    94    04/11/13 07:31
+
+
+
+
+  General :  No acute distress.  
+  Neck :  Supple.  
+  Neurologic :  Cranial Nerves II-XII are grossly intact, Alert and oriented X 4,    Language fluent
+     and intact. Retrograde amnesia. No neglect. Motor intact x4. Sensation normal. Gait not
+     assessed .  
+  Psychiatric :  Cooperative, Appropriate mood   & affect, Normal judgment.  
+
+Objective
+  Radiology results :  .  
+
+  COMPLETED RADIOLOGY IMAGING STUDIES:  
+
+  CT Angio Head W or W/WO Contra [Final] (04/10 1545): IMPRESSION: 1.Unremarkable intracranial
+     CTA. Dictating Dr.   Dictated 04/10/2013 Signing Dr. 
+
+  CT Head/Brain WO Contrast [Final] (04/10 1511): IMPRESSION: No acute intracranial abnormality.
+     No significant change.  Dictating Dr.   Dictated 04/10/2013 Signing Dr. 
+
+  XR Chest 1V [Final] (04/10 1459): Impression: No acute cardio pulmonary process. Dictating Dr.
+     Dictated 04/10/2013 Signing Dr. 
+
+
+  Micro Results :  .  
+
+    MICROBIOLOGY STUDIES RESULTED WITHIN THE LAST 2 DAYS.  See LAB tab for older results.
+
+  ____________________________________________________________________________________________________
+  Culture,Blood
+   Collected: 04/10/13 22:35:00            Status:    In Progress      Source: Blood
+   Last Updated: 04/11/13 08:05:10                                 Site: *Same as Specimen Type*
+
+  Pre Result:  Specimen received.  Culture in progress. at 9 Hours
+
+  ____________________________________________________________________________________________________
+  Culture,Blood
+   Collected: 04/10/13 22:10:00            Status:    In Progress      Source: Blood
+   Last Updated: 04/11/13 08:05:09                                 Site: *Same as Specimen Type*
+  Pre Result:  Specimen received.  Culture in progress. at 9 Hours
+
+
+
+  Lab Results :  .  
+
+
+  LABORATORY RESULTS:  
+
+  CBC and Plt w Diff   04/11/13 05:10
+    Instr WBC                          6.4
+    WBC                                6.4
+    RBC                                4.18 L
+    HGB                               11.9 L
+    HCT                               37.7
+    MCV                               90
+    MCH                               28
+    MCHC                              32
+    RDW                               13.8
+    Platelet                         192
+    MPV                               10.7
+    NRBC Absolute                      0
+
+  Auto Diff   04/11/13 05:10
+    Neutro Auto                       40
+    Lymph Auto                        51 H
+    Mono Auto                          8
+    Eos Auto                           1
+    Basophil Auto                      0
+    Neutro Absolute                    2.56
+    Lymph Absolute                     3.27 H
+    Mono Absolute                      0.51
+    Eos Absolute                       0.05
+    Basophil  Absolute                 0.02
+
+  Basic Metabolic Panel   04/11/13 05:10
+    Sodium                           138
+    Potassium                          3.5 L
+    Chloride                          99
+    CO2                               31
+    Glucose                          342 H
+    BUN                               10
+    Creatinine                         0.8
+    Calcium                            8.2 L
+
+  Renal Function Index   04/11/13 05:10
+    GFR                               89.1
+
+  TSH   04/11/13 05:10
+    TSH                                0.81
+
+
+  Glucose POC TAM   04/10/13 20:59
+    Glu POC TAM                      386 H
+
+  Drug Screen Urine   04/10/13 16:50
+    U Amph Scrn                   Negative
+
+    U Barb Scrn                   Negative
+    U Benzodia Scrn               Negative
+    U Cocaine Scrn                Negative
+    U Opiate Scrn                 Negative
+    U PCP Scrn                    Negative
+    U Cannab Scrn                 Negative
+
+  Urinalysis / Reflex Microscopic and Cult   04/10/13 16:50
+    UA Spec Type                  Clean Catch
+    UA Color                      Yellow
+    UA Appear                     Clear
+    UA Spec Grav                  1.015
+    UA pH                         6.0
+    UA Glucose                    2+*
+    UA Ketones                    1+*
+    UA Blood                      Trace*
+    UA Protein                    Trace*
+    UA Bili                       Negative
+    UA Urobilinogen               0.2
+    UA Leuk Est                   2+*
+    UA Nitrite                    Positive*
+    Microscopic?                  Yes
+    Culture?                      No
+
+  Urine Microscopic (no charge)   04/10/13 16:50
+    UA RBC                        0-3
+    UA WBC                        4-10
+    UA Squam Epithelial           2+*
+    UA Bacteria                   2+*
+    UA Budding Yeast              None Seen
+
+  Glucose POC TAM   04/10/13 15:05
+    Glu POC TAM                      338 H
+
+  CBC and Plt w Diff   04/10/13 15:00
+    Instr WBC                          6
+    WBC                                6
+    RBC                                4.61
+    HGB                               12.9
+    HCT                               40.4
+    MCV                               88
+    MCH                               28
+    MCHC                              32
+    RDW                               13.6
+    Platelet                         229
+    MPV                               11.1
+    NRBC Absolute                      0
+
+  Auto Diff   04/10/13 15:00
+    Neutro Auto                       45
+    Lymph Auto                        49 H
+    Mono Auto                          6
+    Eos Auto                           0
+    Basophil Auto                      0
+    Neutro Absolute                    2.69
+    Lymph Absolute                     2.95
+    Mono Absolute                 
+                                       0.34
+    Eos Absolute                       0.03
+    Basophil  Absolute                 0.01
+
+  Comp Metabolic Panel   04/10/13 15:00
+    Sodium                           134
+
+    Potassium                          3.3 L
+    Chloride                          95 L
+    CO2                               29
+    Glucose                          352 H
+    BUN                                8
+    Creatinine                         0.6
+    Calcium                            8.9
+    Total Protein                      7.4
+    Albumin                            3.6
+    Bili Total                         0.4
+    Alk Phos                          79
+    AST                                8
+    ALT (SGPT)                        10 L
+
+  Troponin T QuaNT   04/10/13 15:00
+    Trop T                             0.01
+
+  Renal Function Index   04/10/13 15:00
+    GFR                           >   110
+
+  PTT   04/10/13 15:00
+    PTT                               28
+
+  Prothrombin Time with INR   04/10/13 15:00
+    PT                                13.1
+    INR                                1
+
+  Acetaminophen Level   04/10/13 15:00
+    Acetaminoph Lvl               <    15 L
+
+  Salicylate Level   04/10/13 15:00
+    Salicylate Lvl                <     3 L
+
+
+
+Review / Management
+  Diagnosis/Impression :   Marked improvment in mental status overnight. Essentially returned to
+     normal now. 
+
+  DDx at this point remains: meningitis/encephalitis, drug intoxication, encephalopathy
+     associated with UTI
+
+  Recommend:
+  1) proceed with LP to r/o meningitis
+  2) continue tx UTI
+
+  will f/u LP results.
+
+  Please call with questions 
+
+[Electronically Signed By:]  
+__________________________________________________________ 
+  
+On, 04/11/2013 11:15 AM
+

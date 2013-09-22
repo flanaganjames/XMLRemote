@@ -1,0 +1,43 @@
+﻿The following are issues in 4.11.3
+
+Encephalopathy: Altered mental status is recognized only if in a History seciton, not in Assessment section.
+Encephalopathy: confusion and disorientation should be taken as synonyms for the SE altered mental status.  Dementia is not.
+
+____________________________________
+MRSA Pneumonia: does not recognize as evidence: MRSA in sputum or blood culture or as PMH of colonization
+For example, in the following doucment, MRSA Pneumonia is generated but no mention is made of MRSA
+
+SUBJECTIVE
+Mental status improved Patient now has a cough. 
+PMH
+Nasal MRSA colonization
+OBJECTIVE
+Blood pressure 110/60, Pulse 85. RR 25. Temperature 38.0.  She is oriented times person place and date. Neurologic exam non-focal. Chest reveals rales. 
+RESULTS
+CXR reveals bilateral infiltrates
+RESULTS
+MRSA positive blood culture. Sodium 128.
+ASSESSMENT
+Pneumonia resistant to previous treatment.
+Hepatic Encephalopathy is improving. Hyponatremia improving. 
+PLAN
+We will start Vancomycin as IV antibiotics to cover MRSA.
+
+___________________________________
+Sepsis: not recognizing hypotension as low BP or positive blood culture or hyptension as diagnosis as SE
+The following note does not trigger sepsis or severe sepsis
+
+SUBJECTIVE
+Patient mental status better. Patient now has a cough. 
+OBJECTIVE
+Blood pressure 75/60, Pulse 120. RR 30. Temperature 38.0.  She is oriented times person place and date. Neurologic exam non-focal. Chest reveals rales. 
+RESULTS
+CXR reveals bilateral infiltrates
+RESULTS
+MRSA colonization in sputum culture. Positive blood culture. Sodium 128. Creatinine 3.2
+ASSESSMENT
+Hypotension and acute renal insufficiency.
+Pneumonia resistant to previous treatment.
+Hepatic Encephalopathy is improving. Hyponatremia improving. 
+PLAN
+We will start Vancomycin as IV antibiotics to cover MRSA.

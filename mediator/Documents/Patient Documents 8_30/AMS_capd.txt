@@ -1,0 +1,249 @@
+mrn=55550001
+visitcode=1501
+authorid=JRF
+correlationid=
+lastName=Gauss
+firstName=Anga
+dateOfBirth=1943-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+
+History of Present Illness
+  The patient presents with altered mental status.  The onset was just prior to arrival.  The
+   course/duration of symptoms is constant.  The character of symptoms is disoriented, confused
+   and decreased responsiveness.  The degree at onset was moderate.  The degree at present is
+   moderate.  Baseline status: alert and oriented X 4. 
+  The exacerbating factor is none.  The relieving factor is none.  Risk factors consist of
+   hypertension.  Prior episodes: none.  Therapy today: emergency medical services.  Associated
+   symptoms: headache, denies fever, denies nausea, denies vomiting, denies syncope and denies
+   seizure.  
+
+
+  58 y/o F, hx of HTN, presents to the ED via EMS for AMS, PTA, associated w/ intermittent
+   expressive aphasia, confusion, disorientation, pain to L side of body and HA; no fever,
+   N/V, numbness, parasthesias. Patient  's friend reports patient began c/o HA yesterday and
+   was continueing to c/o HA earlier today. Friend also reports coworker gave patient a pan
+   medication for HA last night, but unclear of what pain medication. Patient was seen by PCP
+   and experienced difficulty ambulating and AMS. PCP reports patient had pain to L side of
+   face. Allergy to Darvocet, but patient is too altered to express rxn. No CP, SOB, abd pain. EM
+   caveat invoike due to clinical condition.
+  PCP: Ina .   
+
+Review of Systems
+      Constitutional symptoms:    No fever,  
+      Skin symptoms:   No rash,  
+      Eye symptoms:   Negative except as documented in HPI. 
+      ENMT symptoms:   Negative except as documented in HPI. 
+      Respiratory symptoms:    No shortness of breath,  
+      Cardiovascular symptoms:    No chest pain,  
+      Gastrointestinal symptoms:    No abdominal pain, no nausea, no vomiting.  
+      Genitourinary symptoms:    Negative except as documented in HPI. 
+      Musculoskeletal symptoms:    Negative except as documented in HPI. 
+      Neurologic symptoms:    Headache, speech problem,  AMS , No numbness,  
+      Psychiatric symptoms:    Negative except as documented in HPI. 
+      Endocrine symptoms:    Negative except as documented in HPI. 
+      Hematologic/Lymphatic symptoms:    Negative except as documented in HPI. 
+      Allergy/immunologic symptoms:    Negative except as documented in HPI. 
+            Additional review of systems information:    Unable to obtain due to: Clinical
+     condition. 
+
+Health Status
+  Allergies:  . 
+     Allergic Reactions (Selected)
+        Severity Not Documented
+
+            Actos- No reactions were documented.
+            Darvocet-N 100- No reactions were documented. 
+  Medications:   (Selected). 
+     Documented Medications
+        Ordered
+
+            Accupril 40 mg oral tablet: 1 TAB, PO, Daily, 0 Refill(s)
+            Aspir 81 oral delayed release tablet: 1 TAB, PO, Daily, 0 Refill(s)
+            GlipiZIDE XL 10 mg oral tablet, extended release: = 1 TAB, PO, Daily, 0 Refill(s)
+            HumuLIN R 100 units/mL injectable solution: Subcut, 0 Refill(s)
+            Lantus 100 units/ml subcutaneous solution: Subcut, 0 Refill(s)
+            Lasix 40 mg oral tablet: 1 TAB, PO, Daily, 0 Refill(s)
+            amLODIPine 5 mg oral tablet: 1 TAB, PO, Daily, 0 Refill(s)
+            pravastatin 40 mg oral tablet: 1 TAB, PO, Daily, 0 Refill(s) 
+
+Past Medical/ Family/ Social History
+
+  Medical history
+    Cardiovascular: hypertension. 
+    Neurological: migraine, headache. 
+  Surgical history:  Negative. 
+  Social history:  Alcohol use: Denies, Tobacco use: Denies, Drug use: Denies. 
+
+Physical Examination
+
+           Vital Signs
+    Vital Signs. 
+           04/10/2013 15:10 EDT     Heart Rate Location       Auto BP, Continuous Cardiac Monitor,
+               Monitor   
+           04/10/2013 14:40 EDT     Temperature               99.2 DegF  
+                                    Heart Rate                88 bpm  
+                                    Respiratory Rate          18 br/min  
+                                    Inet NIBP Systolic        174 mmHg  
+                                    Inet NIBP Diastolic       87 mmHg   
+    Measurements. 
+           04/10/2013 14:40 EDT     Clinical Height           172 cm  
+                                    Clinical Weight           129 kg  
+                                    Weight Method             Chair scale   
+                                    BMI                       43.60    
+    Oxygen Saturation. 
+           04/10/2013 14:40 EDT     Oxygen Saturation         99 %   
+      General:   Alert, no acute distress,  Vital signs reviewed .  
+      Skin:   Warm, pink, intact, no pallor, no rash.  
+      Head:   Normocephalic, atraumatic.  
+      Neck:   Supple, trachea midline.  
+      Eye:   Pupils are equal, round and reactive to light, extraocular movements are intact,
+             normal conjunctiva, vision unchanged.  
+      Ears, nose, mouth and throat:    Oral mucosa moist. 
+      Cardiovascular:   Regular rate and rhythm, No murmur, Normal peripheral perfusion.  
+      Respiratory:   Lungs are clear to auscultation, respirations are non-labored, breath sounds
+             are equal.  
+      Chest wall:   No deformity. 
+      Back:   Nontender, Normal range of motion.  
+      Musculoskeletal:   Normal ROM, normal strength, no tenderness, no swelling.  
+      Gastrointestinal:   Soft, Nontender, Non distended, Normal bowel sounds, No organomegaly,
+             Guarding: Negative, Rebound: Negative, Mass: Negative.  
+      Neurological:   unable to follow commands; A/O x 1; intermittent expressive aphasia . 
+      Lymphatics:   No lymphadenopathy. 
+      Psychiatric:   see neurological . 
+
+Medical Decision Making
+    Orders   Laboratory
+      CBC and Plt w Diff    April 10, 201314:45:43Completed
+
+      CMP (Comp Metabolic Panel)    April 10, 201314:45:44Completed
+      PTT    April 10, 201314:45:47Completed
+      Prothrombin Time with INR    April 10, 201314:45:50Completed
+      Troponin T QuaNT    April 10, 201314:45:52Completed
+      Auto Diff    April 10, 201315:16:21Completed
+
+      Renal Function Index    April 10, 201315:16:21Completed
+      Glucose POC TAM    April 10, 201315:17:14Completed
+      Drug Screen Urine    April 10, 201315:38:21Ordered
+      Acetaminophen Level    April 10, 201315:38:40Ordered
+      Salicylate Level    April 10, 201315:38:49Ordered
+      Cell Count CSF    April 10, 201315:40:18Ordered
+      Glucose CSF    April 10, 201315:40:19Ordered
+      Protein Total CSF    April 10, 201315:40:19Ordered
+      VDRL CSF QuaL    April 10, 201315:40:30Ordered
+      Culture CSF    April 10, 201315:40:34Ordered
+      Gram Stain    April 10, 201315:40:36Ordered
+      Cell Count CSF    April 10, 201315:44:27Ordered
+    Xray
+      Chest 1V XR    April 10, 201314:45:55Completed
+    EKG / Respiratory / Ancillary
+      EKG-    April 10, 201314:45:30InProcess
+    CT / MRI / Ultrasound
+      CT Brain/Head WO Contrast    April 10, 201314:46:07Completed
+      CT Angio Head W or W/WO Contrast    April 10, 201315:45:08Ordered
+      , Medications (6) Active
+    Scheduled: (5)
+    Insulin Regular Human 1 unit/0.01 mL 3 mL MDV     8 Unit 0.08 mL , Subcut, Once
+    ketorolac 30 mg/1 mL INJ    30 mg 1 mL, IV, Once
+    metoclopramide 5 mg/mL INJ 2 mL    10 mg 2 mL , IV Push, Once
+    naloxone   2 mg 2 mL, Given , Now
+    Naloxone 0.4 mg/mL 10 ml SOL    1 mg 2.5 mL , IV, Once
+    Continuous: (1)
+    Sodium Chloride 0.9% 1,000 mL    1,000 mL, IV , 1,000 mL/hr
+    PRN: (0)
+      .  
+    Electrocardiogram:   Time 04/10/2013 15:46:00, rate 81, EP Interp, The Rhythm is    arhythmia.  ,
+           The Axis is leftward.  , QRS interval   incomplete RBBB,  LAE.  
+    Results review:   Lab results : Laboratory. 
+          04/10/2013 15:05 EDT       Glucose Level (POC)       338 mg/dL  HI 
+          04/10/2013 15:00 EDT     WBC                       6.0 x10   '3/microL  
+                                   RBC                       4.61 x10   '6/microL  
+                                   Hgb                       12.9 g/dL  
+                                   Hct                       40.4 %  
+                                   Platelet                  229 x10   '3/microL  
+                                   MCV                       88 fL  
+                                   MCH                       28 pg  
+                                   MCHC                      32 g/dL  
+                                   RDW                       13.6 %  
+                                   MPV                       11.1 fL  
+                                   Abs NRBCs                 0.00 x10   '3/microL  
+                                   Neutrophils               45 %  
+                                     Lymphs                    49 %  HI 
+                                   Monocytes %               6 %  
+                                   Eosinophil %              0 %  
+                                   Basophil %                0 %  
+                                   Neutro Absolute           2.69 x10   '3/microL  
+                                   Lymph Absolute            2.95 x10   '3/microL  
+                                   Mono Absolute             0.34 x10   '3/microL  
+                                   Eos Absolute              0.03 x10   '3/microL  
+                                   Basophil  Absolute        0.01 x10   '3/microL  
+                                   PT                        13.1 second  
+                                   INR                       1.00 ratio  
+
+                                   PTT                       28 second  
+                                   Sodium                    134 mmol/L  
+                                     Potassium                 3.3 mmol/L  LOW 
+                                     Chloride                  95 mmol/L  LOW 
+                                   CO2                       29 mmol/L  
+
+                                     Glucose                   352 mg/dL  HI 
+                                   BUN                       8 mg/dL  
+                                   Creatinine                0.6 mg/dL  
+                                   Calcium                   8.9 mg/dL  
+                                   GFR (MDRD)                   >110.0 mL/min/1.73 m2  NA  
+                                   Est CrCl (CG)             102.0 mL/min  
+                                   Albumin Level             3.6 g/dL  
+                                   Total Protein             7.4 g/dL  
+                                   Troponin T                0.01 ng/mL  
+                                   Alk Phos                  79 Units/L  
+                                   AST                       8 Units/L  
+                                     ALT                       10 Units/L  LOW 
+                                   Bili Total                0.4 mg/dL  
+
+
+
+Impression and Plan
+  Diagnosis
+    AMS
+    Acute Hyperglycemia 
+    Acute HA
+    UTI
+    r/o meningitis vs. SAH vs. Other
+
+  Calls-Consults
+      -   04/10/2013 16:39:00 , ,   Paged for admission .  
+      -   04/10/2013 16:43:00 , ,   Will see patient - states not tpa
+             candidate, not SAH. .  
+      -   04/10/2013 17:00:00 , ,   Agrees to admit and manage patient.   .  
+  Plan
+    Condition:  Guarded.  
+    Disposition:  Admit: Time  04/10/2013 16:39:00, .  
+    Counseled:  Patient, Friend, Regarding diagnosis, Regarding diagnostic results, Regarding
+     treatment plan, Regarding prescription, Patient indicated understanding of instructions.  
+
+Addendum
+
+  Teaching-Supervisory Addendum-Brief
+    Notes:  Documentation entered by physician scribe, Carlyn Younie, as directed by me. I
+ have personally examined and administered care to this patient.  Furthermore, this document
+ accurately reflects all work, treatment, procedures, and medical decision making performed by
+ me.
+
+
+
+      . 
+[Electronically Signed By:]  
+__________________________________________________________ 
+  
+On, 04/10/2013 05:57 PM
+
+
+
+
+
+
+
+
+
+
+

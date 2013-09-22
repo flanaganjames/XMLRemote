@@ -1,0 +1,76 @@
+mrn=12340101
+visitcode=12340101_0001
+authorid=JRF
+correlationid=
+lastName=Patient
+firstName=New
+dateOfBirth=1930-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+
+REASON FOR CONSULTATION
+To evaluate patient with infection at the PEG tube site.
+HISTORY OF PRESENT ILLNESS
+This is an 89-year-old female who was brought in to this institution on the 04/13/2013,
+ complained that the PEG tube was displaced and was not able to be fed.  She has some wounds in
+ both of her feet that are being addressed by Dr. Mennuti, podiatrist.  Both feet are bandaged,
+ therefore, I did not have a chance to evaluate them; however, I examined the patient and I
+ interviewed; she is not a good historian.  She is mostly bedbound, therefore all the information
+ I obtained from the medical record.
+ALLERGIES
+MORPHINE, PENICILLIN, SULFONAMIDE.
+PAST MEDICAL HISTORY
+CHF, aspiration pneumonia, dysphagia, hypertension, cardiomyopathy, rheumatoid arthritis, COPD,
+ senile dementia Alzheimer's type, COPD, gallbladder surgery, peripheral artery disease and leg
+ wounds.
+SOCIAL HISTORY
+Lives in a nursing home.  There is no history of alcohol or tobacco.
+FAMILY HISTORY
+Not available.
+REVIEW OF SYSTEMS
+The patient is not able to give any information.
+MEDICATIONS
+That she has been taking include Aricept, nitroglycerin sublingual, Protonix, prednisone,
+ Tylenol, DuoNeb, bethanechol, vitamin C.
+REVIEW OF SYSTEMS
+The patient is not able to elaborate.
+PHYSICAL EXAMINATION
+VITAL SIGNS:  Temperature is 101.6, pulse 121, respirations 28, blood pressure 90/33.
+GENERAL INSPECTION:  I interviewed and examined an adult woman who is in no obvious distress. 
+ I had seen her earlier but I ran into her new vitals taken today, but she has had fever 101.5
+ and 101.9, earlier today 102.8  I interviewed and examined an elderly woman who is in bed in
+ no acute distress.  She is bedbound.  Multiple deformity of her hands and wrist secondary to
+ arthritis.  She speaks nothing, but she tries to follow some commands.
+HEENT:  No icterus.  No obvious oral lesions.
+NECK:  Supple.  Thyroid nonpalpable.  No obvious lymph nodes.
+CHEST:  Lungs good ventilation bilaterally.
+CARDIOVASCULAR:  S1, S2.
+ABDOMEN:  Soft, no guarding or rebound, no organomegaly.  Her weight is 65.8 kg.
+EXTREMITIES:  Both legs are bandaged.  Her PEG site has some minimal degree of inflammation and
+ there is slight bloody purulence.
+NEUROLOGICAL EXAMINATION:  Able to move her extremities, awake but does not communicate.
+LABORATORY STUDIES
+Her white blood count is 11, hematocrit 28, platelets 94, BUN 24, creatinine 0.63. Urinalysis
+ negative, nitrites, negative leukocyte esterase, no white blood cells.  Blood cultures on
+ admission are pending.
+RADIOLOGIC STUDIES
+CT of the chest opacification left lower lobe bronchus with extensive left lower lobe atelectasis
+ and small bilateral pleural effusions.  Chest x-rays - Left lung base opacity.  Effusion as
+ possible.
+DIAGNOSTIC IMPRESSION
+1.  Sepsis in view of tachypnea, tachycardia, fever and now with signs of low blood pressure.
+2.  Pneumonia, left base with effusion.
+3.  Leg wound is being addressed by podiatry.
+4.  Percutaneous endoscopic gastrostomy site purulence.  Minimal inflammation.
+5.  Allergy to morphine, sulfonamide, penicillins.
+6.  History of congestive heart failure, aspiration pneumonias, dysphagia, cardiomyopathy,
+ hypertension, dementia, rheumatoid arthritis, chronic obstructive pulmonary disease, gallbladder
+ surgery, peripheral arterial disease, etc.
+RECOMMENDATIONS
+1.  Sputum for culture and sensitivity will be adequate and required.
+2.  Levaquin obviously is not effective; therefore will change to ceftaroline and Zyvox.
+3.  MRSA screen.
+4.  Sputum for C and S needed.
+5.  Follow blood cultures taken today.
+6.  Follow white blood count, temperature, vital signs, etc.
+7.  Observe the patient for diarrhea related to antibiotics.

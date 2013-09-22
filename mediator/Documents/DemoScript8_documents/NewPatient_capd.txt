@@ -1,0 +1,118 @@
+mrn=12340101
+visitcode=1503
+authorid=JRF
+correlationid=
+lastName=Patient
+firstName=New
+dateOfBirth=1930-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+
+History of Present Illness
+  The patient presents with difficulty breathing and cough.  The onset was 2  hours ago.  The
+ course/duration of symptoms is constant and worsening.  Degree at onset moderate.  Degree at
+ present moderate.  There are Exacerbating factorss including exertion and lying flat.  There
+ are Relieving factorss including rest and oxygen.  Risk factors consist of congestive heart
+ failure, diabetes mellitus and hypertension.  Prior episodes: occasional.  Therapy today:
+ emergency medical services.  Associated symptoms: chest pain, cough, nausea, denies fever,
+ denies chills, denies vomiting, denies abdominal pain, denies back pain, denies weight gain and
+ denies hemoptysis.   
+
+Review of Systems
+      Constitutional symptoms:    No fever, no chills, no sweats, no weakness, no fatigue, no
+             decreased activity.  
+      Skin symptoms:   No jaundice, no pruritus.  
+      Eye symptoms:   No recent vision problems,  
+      ENMT symptoms:   No sore throat, no nasal congestion.  
+      Respiratory symptoms:    Shortness of breath, cough, no orthopnea, no hemoptysis, no
+             wheezing.  
+      Cardiovascular symptoms:    No chest pain, no palpitations, no tachycardia, no syncope, no
+             diaphoresis, no peripheral edema.  
+      Gastrointestinal symptoms:    Nausea, no abdominal pain, no vomiting, no diarrhea, no
+             constipation.  
+      Genitourinary symptoms:    No dysuria, no hematuria.  
+      Musculoskeletal symptoms:    No back pain, no Muscle pain, no Joint pain.  
+      Neurologic symptoms:    No headache, no dizziness, no altered level of consciousness, no
+             numbness, no tingling, no weakness.  
+
+Past Medical/ Family/ Social History
+
+  Medical history
+    Cardiovascular: hypertension, congestive heart failure, atrial fibrillation, hyperlipidemia. 
+    Respiratory: chronic obstructive pulmonary disease, sleep apnea. 
+    Endocrine: diabetes, hypothyroid. 
+    Gastrointestinal: gastroesophageal reflux. 
+    Neurological: dementia, peripheral neuropathy. 
+    Musculoskeletal: osteoarthritis. 
+    CRI. 
+  Surgical history:  Hip replacement. 
+  Family history:  Reviewed as documented in chart. 
+
+  Social history:  Not significant. 
+
+
+Physical Examination
+
+           Vital Signs
+    Reviewed Results: Vital Signs(Date Range: 04/14/13 00:00 EDT - 04/15/13 09:21 EDT). 
+      General:   Alert, no acute distress.  
+      Skin:   Warm, pink, intact, moist, no pallor, no rash.  
+      Head:   Normocephalic, atraumatic.  
+      Neck:   Supple, trachea midline, no tenderness, no JVD.  
+      Eye:   Pupils are equal, round and reactive to light, normal conjunctiva.  
+      Ears, nose, mouth and throat:    Oral mucosa moist, no pharyngeal erythema or exudate.  
+      Cardiovascular:   Regular rate and rhythm, No murmur, Normal peripheral perfusion.  
+      Respiratory:   Breath sounds are equal, Symmetrical chest wall expansion, Respirations:
+             Tachypneic, respiratory distress moderate, Breath sounds: Bilateral, diminished,
+             Retractions: Mild.  
+      Chest wall:   No tenderness, No deformity.  
+      Musculoskeletal:   Normal ROM, normal strength, no tenderness, no deformity,    mild bilat
+             pedal edema.  
+      Gastrointestinal:   Soft, Nontender, Non distended, Normal bowel sounds, No organomegaly.  
+    Genitourinary
+      Neurological:   Alert and oriented to person, place, time, and situation, No focal
+             neurological deficit observed, CN II-XII intact, normal sensory observed, normal
+             motor observed, normal speech observed.  
+      Lymphatics:   No lymphadenopathy. 
+      Psychiatric:   Cooperative, appropriate mood   & affect, normal judgment.  
+
+Medical Decision Making
+    Differential Diagnosis:    Pneumonia, bronchitis, congestive heart failure, pulmonary embolism,
+           pulmonary edema, pleural effusion, acute myocardial infarction.  
+    Documents reviewed:    Emergency department nurses ' notes, emergency medical system run report,
+           emergency department records, prior records.  
+    Results review:   Reviewed Results: Lab results : Laboratory(Date Range: 04/14/13 00:00 EDT -
+           04/15/13 10:03 EDT). 
+    Chest X-Ray:  
+    IMPRESSION: 
+    Study limited by motion with left basilar atelectasis or scarring redemonstrated. Patchy
+           airspace disease in the lower lungs not excluded.
+
+    Cardiomegaly.
+
+    Dictating Dr. B
+    Dictated 04/15/2013
+    Signing Dr. B
+
+
+    . 
+    Notes:   spoke with dr. g, he accepts the pt.. 
+
+Reexamination/ Reevaluation
+Time: 04/15/13 10:03:00 . 
+Course: improving,  freq. re-exams: improving, stable. no cp.. 
+
+Impression and Plan
+  Diagnosis
+    Congestive heart failure  428.0 
+  Diagnosis
+    coagulopathy 
+
+    hyperglycemia 
+    elevated troponin 
+  Plan
+    Condition:  Improved, Stable.  
+    Disposition:  Admit.  
+
+    Counseled:  Patient, Regarding diagnosis, Regarding diagnostic results, Regarding treatment
+         plan, Patient indicated understanding of instructions.

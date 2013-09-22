@@ -1,0 +1,158 @@
+
+
+
+Progress Note AHS
+
+Patient:    MRN: FIN: 
+Age:    58 years     Sex:   Female     DOB:   
+Associated Diagnoses:     None
+Author:    
+
+Visit Information
+  Subjective: :  Pt complains of persistent moderate headache in the left temporal region.
+   She reports taking tylenol for the headache last night, and began to sweat. Pt reports she
+   is ambulating well. Denies chest pain, difficulty breathing, nausea or vomiting. She is
+   tolerating her diet well..  
+
+Review of Systems
+  Constitutional :  Negative except as documented in history of present illness.  
+
+Physical Examination
+  Intake and Output
+
+
+  Intake  & Output - 07:00 yesterday to 06:59 today  
+  Total Intake                                                                     4442    
+  Urine Output(voided + catheter)                        2200    
+  Total Output                                                                     2200    
+  Balance                                                                          2242    
+
+  Urine Count                                                                              0
+
+
+  VS/Measurements
+
+
+
+  VITALS:  
+  BP:   151 / 76   Pulse:    77  Temp:   98.3   Resp Rate:   18
+  Tmax:    98.9  Wt(kg):   No weight recorded in last 24 hrs
+  Pain Score:   Pain Score   6    04/12/13 08:00  
+  O2 Sat:    99    04/12/13 11:26
+
+
+
+
+  General :  Alert and oriented, No acute distress.  
+  Eye :  Pupils are equal, round and reactive to light.  
+  HENT :  Normocephalic.  
+  Neck :  Supple.  
+
+  Respiratory :  Lungs are clear to auscultation.  
+
+  Cardiovascular :  Normal rate, Regular rhythm, No murmur, Good pulses equal in all extremities.
+      
+  Gastrointestinal :  Soft, Non-tender.  
+  Musculoskeletal :  Normal range of motion.  
+  Integumentary :  Warm, Dry, Intact.  
+  Neurologic :  Alert, Oriented, No focal deficits.  
+  Psychiatric :  Cooperative, Appropriate mood   & affect.  
+
+Objective
+  Lab Results :  .  
+
+
+  LABORATORY RESULTS:  
+
+  Vancomycin Level Trough   04/12/13 10:30
+    Vanco Tr                          13.9
+
+  Glucose POC TAM   04/12/13 07:14
+    Glu POC TAM                       88
+
+  CBC and Plt w Diff   04/12/13 04:50
+    Instr WBC                          5.1
+    WBC                                5.1
+    RBC                                4.23
+    HGB                               11.6 L
+    HCT                               38.3
+    MCV                               90
+    MCH                               27
+    MCHC                              30 L
+    RDW                               14
+    Platelet                         194
+    MPV                               10.7
+    NRBC Absolute                      0
+
+  Basic Metabolic Panel   04/12/13 04:50
+    Sodium                           139
+    Potassium                          3.5 L
+    Chloride                         103
+    CO2                               29
+    Glucose                          201 H
+    BUN                               10
+    Creatinine                         0.7
+    Calcium                            8.8
+
+  Auto Diff   04/12/13 04:50
+    Neutro Auto                       38
+    Lymph Auto                        50 H
+    Mono Auto                          8
+    Eos Auto                           4
+    Basophil Auto                      0
+    Neutro Absolute                    1.92
+    Lymph Absolute                     2.56
+    Mono Absolute                      0.38
+    Eos Absolute                       0.23
+    Basophil  Absolute                 0.01
+
+
+  Renal Function Index   04/12/13 04:50
+    GFR                              104
+
+  Glucose POC TAM   04/11/13 20:31
+    Glu POC TAM                      227 H
+
+
+  Glucose POC TAM   04/11/13 16:36
+    Glu POC TAM                      297 H
+
+
+
+Review / Management
+  Diagnosis/Impression :   Scribed by RN for Dr.  04/12/13  , Documentation
+     entered by scribe-- --as directed by me.  I have personally examined and
+     administered care to this patient.  Furthermore, this document accurately reflects all work,
+     treatment, procedures, and medical decision making performed by me.
+    .  
+  Plan :  
+  1.  Altered mental status, resolved
+  2.  Dysarthria.
+  3.  Fever.
+  4.  Headache.
+  5.  Hypertension.
+  6.  Hyperlipidemia.
+  7.  Insulin-dependent diabetes mellitus.
+  8.  Hyperglycemia
+  9.  Obesity.
+  10.  UTI
+  11.  Hypokalemia
+  12.  Deep vein thrombosis prophylaxis with Lovenox.
+
+  -Continue abx for UTI
+  -No evidence of meningitis on CSF results
+  -Will stop vanco and acyclovir and continue rocephin
+  -F/u all cultures
+  -Increase lantus; change to high dose sliding scale
+  -Titrate insulin as needed for glc conrol
+  -Replace K
+  -Labs in AM
+  -BP controlled on current meds
+  -Neuro following
+   -Plan for possible discharge tomorrow  .  
+
+[Electronically Signed By:]  
+__________________________________________________________ 
+  
+On, 04/12/2013 06:54 PM
+

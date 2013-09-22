@@ -1,0 +1,74 @@
+mrn=12340010
+visitcode=0002
+authorid=JRF
+correlationid=
+lastName=Trigg
+firstName=Robert
+dateOfBirth=1938-01-31
+gender=M
+visitStart=2012-01-31 01:02:03
+
+Chief Complaint
+Left sided chest pain that started while mowing the lawn.
+
+History of Present Illness
+The patient is a diabetic and has a prior history of coronary heart disease. The patient presents today stating that his chest pain started yesterday evening and has been somewhat intermittent. The severity of the pain has progressively increased. He describes the pain as sharp and heavy pain which radiates to his neck and left arm. He ranks the pain as 7 on a scale of 1-10. He states the pain is somewhat worse with walking and seems to be relieved with rest. There is no change in pain with position. He admits some shortness of breath and diaphoresis. He denies any fever or chills.
+
+Review of Systems
+Musculoskeletal: Complaining of joint and muscle pain in hips and thighs.
+Respiratory: Complaining of coughing up green mucus
+All other systems reviewed and are negative.
+
+Problem List/Past Medical History
+CAD (Coronary Artery Disease)
+Diabetes mellitus type 2
+Hypertension
+
+Medications
+Lipitor 10 mg oral tablet once daily
+Lisinopril 10 mg oral tablet once daily
+Metformin 500 mg oral tablet twice daily
+Metoprolol 100 mg oral tablet twice daily
+
+Allergies
+Erythromycin (Hives)
+
+Social History
+Alcohol 
+Low Risk; Details: Current, Beer, 1-2 times per week 
+Employment/School 
+
+Family History
+Mother: Asthma; Breast cancer
+Father: COPD
+
+Physical Exam
+Vitals and Measurements
+T: 37.8C (oral) HR: 89 RR: 28 BP: 112/56 (sitting) SPO2: 90%
+The patient is a 68-year-old white male. 
+General: He appears in moderate discomfort and there is evidence of mild distress. He is alert and oriented to person place and circumstance. There is evidence of mild respiratory distress. The patient has been non-ambulatory for 2 weeks as a complication of recent diagnosis of acute polyneuritis.
+HEENT: Normocephalic/atraumatic head. Pupils are 2.5 mm, equal round and reactive to light bilaterally. Extraocular muscles are intact bilaterally. External auditory canals are clear bilaterally. Tympanic membranes are clear.
+Neck: No JVD. Neck is supple. There is free range of motion and no tenderness, thyromegaly or lymphadenopathy noted.
+Pharynx: Clear, no erythema, exudates or tonsillar enlargement.
+Chest: No chest wall tenderness to palpation.
+Lungs: Diffuse rhonchi and rales at the bases.
+Heart: Irregularly irregular rate and rhythm, no murmurs, gallops or rubs.
+Abdomen: Soft, nondistended. No tenderness noted. No CVAT.
+Skin: Warm, diaphoretic, mucous membranes moist, normal turgor, no rash noted.
+Extremities: No gross visible deformities. No cyanosis or dabbing. There is left lower extremity pitting edema slightly greater than right.
+
+Lab Results
+CBC: White blood cell 14.2, hematocrit 33.5, platelets 316
+Chem-7: NA 142, potassium 4.5, chloride 102, CO2 22.6, BUN 26, creatinine 1.2, glucose 186
+Serum troponin I: 2.5
+
+Diagnostic Results
+Chest x-ray: Left lower lobe patchy opacities and basilar infiltrates. No cardiomegaly
+EKG: Atrial fibrillation with ventricular rate of 65. Acute inferior ischemic changes noted i.e. ST elevation in lead III and aVF (refer to EKG multimedia)
+
+Impression and Plan
+Pneumonia
+Diabetic Neuropathy
+CAD
+Hypertension
+

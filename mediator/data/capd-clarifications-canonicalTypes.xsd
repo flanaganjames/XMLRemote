@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema
+	xmlns="http://www.nuance.com/clu/capd/clarifications/types/canonical"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.nuance.com/clu/capd/clarifications/types/canonical"
+	xmlns:ccct="http://www.nuance.com/clu/capd/clarifications/types/canonical"
+	version="1.0">
+
+	<xsd:complexType name="Clarification">
+		<xsd:sequence>
+
+			<!-- Identifies the document the clarification is directly associated 
+				to -->
+			<xsd:element name="document" type="ccct:DocumentedIn" />
+
+			<!-- Ungrouped clarifications. A family is always represented. Some examples 
+				below: AAA repair, Abscess, Adhesions, AICD, AMS, AMI, Amputation, Anemia, 
+				Angina, Antepartum, Appendectomy, Arthritis -->
+			<xsd:element name="family" type="xsd:string" minOccurs="1"
+				maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>Family name of the Diagnosis</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element name="kind" type="xsd:string" minOccurs="0"
+				maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>Kind name of the Diagnosis. This only exists if
+						the
+						clarification
+						is a kind. The family element represents its grouped family
+						parent.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- In the intial relase this will always be CDI -->
+			<xsd:element name="clarificationType" type="xsd:string" />
+
+			<!-- Level of accuracy. Return clarifications for only >= 2. -->
+			<xsd:element name="confidence" type="xsd:int" />
+
+			<xsd:element name="clarificationStatus" type="ccct:ClarificationStatus"
+				minOccurs="1" maxOccurs="1" />
+
+			<xsd:element name="documentationStatus" minOccurs="1"
+				maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>Documentation Status
+						Possible Values:
+						0: Undocumented (not in
+						the document yet, supported diagnosis)
+						1: Unspecified (in the document, needs
+						more specificity)
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:short">
+						<xsd:pattern value="0|1"></xsd:pattern>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+
+			<xsd:element name="sequence" type="xsd:short" minOccurs="1"
+				maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The order contains clinical relevance to the
+						clinician
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element name="displayText" type="xsd:string"
+				minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The template question which should be displayed
+						to the
+						clinician for the clarification
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element name="moreInfo" type="xsd:string" minOccurs="1"
+				maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>Text that could be presented to the physician to
+						describe the
+						clarification
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element name="supportingData" type="ccct:SupportingData"
+				minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>Existing findings data to support the proposed
+						clarification
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<!-- Previous schema correction 0/unbounded to 1/1 these are the choices 
+				for the text for the physician -->
+			<xsd:element name="clarificationCodes" type="ccct:ClarificationCodes"
+				minOccurs="1" maxOccurs="1">
+			</xsd:element>
+			<xsd:element name="documentationText" type="xsd:string"
+				minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The text which will go in the document if this
+						Clarification
+						response is applied.
+						Format is the template sentense DisplayText with the
+						normalized evidence names comma separated.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+		</xsd:sequence>
+
+	</xsd:complexType>
+
+	<xsd:complexType name="ResolvedClarification">
+		<xsd:sequence>
+			<!-- Identifies the document the clarification is directly associated 
+				to -->
+			<xsd:element name="document" type="ccct:DocumentedIn" />
+
+			<!-- Ungrouped clarifications. A family is always represented. Some examples 
+				below: AAA repair, Abscess, Adhesions, AICD, AMS, AMI, Amputation, Anemia, 
+				Angina, Antepartum, Appendectomy, Arthritis -->
+			<xsd:element name="family" type="xsd:string" minOccurs="1"
+				maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>Family name of the Diagnosis</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element name="kind" type="xsd:string" minOccurs="0"
+				maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>Kind name of the Diagnosis. This only exists if
+						the
+						clarification
+						is a kind. The family element represents its grouped family
+						parent.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<xsd:element name="ReviewerResponse" type="ccct:ReviewerResponse"
+				minOccurs="0" />
+
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:simpleType name="ReviewerResponse">
+		<xsd:annotation>
+			<xsd:documentation>
+				Enumeration of user clarification resolution/extraction statuses.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="CONCUR" />
+			<xsd:enumeration value="OTHER" />
+			<xsd:enumeration value="ASK_AGAIN_LATER" />
+			<xsd:enumeration value="DOES_NOT_APPLY" />
+			<xsd:enumeration value="SHOWN" />
+			<xsd:enumeration value="NOT_SHOWN" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:complexType name="ClarificationCodes">
+		<xsd:sequence>
+			<!-- This represents the core Clarification nomenclature/ontology codes 
+				- ICD9, ICD10, SNOMED -->
+			<xsd:element name="potentialCondition" type="ccct:PotentialCondition"
+				minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>Current diagnosis of anemia - the potential
+						clarified
+						condition. This is related to the undocumented case
+						(findings low HnH,
+						estimated blood loss > 1000)
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="existingCondition" type="ccct:ExistingCondition"
+				minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>The potential clarified condition - anemaia -
+						unspecified
+						case flag (both evidence and potential condition)
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="PotentialCondition">
+		<xsd:sequence>
+			<!-- ICD9/ICD10, SNOMED - unbounded rather than 3 only for the future -->
+			<xsd:element name="nomenclatureCode" type="ccct:NomenclatureCode"
+				minOccurs="3" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ExistingCondition">
+		<xsd:sequence>
+			<!-- ICD9/ICD10, Snomed - unbounded rather than 3 only for the future -->
+			<xsd:element name="nomenclatureCode" type="ccct:NomenclatureCode"
+				minOccurs="3" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="SupportingData">
+		<xsd:annotation>
+			<xsd:documentation>Each element instance is unique and would list the
+				N documents it
+				was
+				found in. Uniques is based on all sub-element parts.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:choice minOccurs="1" maxOccurs="unbounded">
+			<xsd:element name="diagnosis" type="ccct:SupportingCode"
+				minOccurs="0" maxOccurs="unbounded"></xsd:element>
+			<xsd:element name="treatment" type="ccct:SupportingTreatment"
+				minOccurs="0" maxOccurs="unbounded"></xsd:element>
+			<xsd:element name="labVS" type="ccct:SupportingLabVS"
+				minOccurs="0" maxOccurs="unbounded"></xsd:element>
+		</xsd:choice>
+	</xsd:complexType>
+
+	<xsd:complexType name="SupportingDataElement">
+		<xsd:sequence>
+			<xsd:element name="document" type="ccct:DocumentedIn" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="DocumentedIn">
+		<xsd:sequence>
+			<!-- cluDocumentId or externalId depending on the client integration; 
+				0-unbounded? -->
+			<xsd:element name="documentId" type="xsd:string"
+				minOccurs="0" maxOccurs="unbounded" />
+
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="Visit">
+		<xsd:sequence>
+			<xsd:element name="visitId" type="xsd:string" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="SupportingCode">
+		<xsd:annotation>
+			<xsd:documentation>Diagnosis evidences</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="ccct:SupportingDataElement">
+				<xsd:sequence>
+					<xsd:element name="nomenclatureCode" type="ccct:NomenclatureCode"
+						maxOccurs="unbounded"></xsd:element>
+					<xsd:element name="negativeIndicator" type="xsd:boolean">
+						<xsd:annotation>
+							<xsd:documentation>Indicates that the absence of the specified
+								code(s)
+								is clinically significant. Possible Values:
+								1 or true: Indicates the
+								absence of the specified codes
+								0 or false: Indicates the presence of
+								the specified codes
+								Omission of this element shall be treated the
+								same as a value of 0 or false
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="name" type="xsd:string" minOccurs="1">
+						<xsd:annotation>
+							<xsd:documentation>Evidence idintifier normalized name
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="tokens" type="ccct:Token" minOccurs="1"
+						maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="SupportingTreatment">
+		<xsd:complexContent>
+			<xsd:extension base="ccct:SupportingDataElement">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string">
+						<xsd:annotation>
+							<xsd:documentation>Evidence idintifier normalized name
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="class" type="xsd:string" />
+					<xsd:element name="tokens" type="ccct:Token" minOccurs="1"
+						maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="SupportingLabVS">
+		<xsd:complexContent>
+			<xsd:extension base="ccct:SupportingDataElement">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" minOccurs="1"
+						maxOccurs="1">
+						<xsd:annotation>
+							<xsd:documentation>Evidence idintifier normalized name
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="value" type="xsd:string" minOccurs="0"
+						maxOccurs="1">
+						<xsd:annotation>
+							<xsd:documentation>lab value when applicable</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="indicator" type="xsd:string"
+						minOccurs="1" maxOccurs="1">
+						<xsd:annotation>
+							<xsd:documentation>Abnormality status indicator, such as
+								low/high/...
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="tokens" type="ccct:Token" minOccurs="1"
+						maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="NomenclatureCode">
+		<!-- TODO: Separate this to a common CLU schema type -->
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:string" />
+			<!-- Vocabulary Types can be ICD9, ICD10, SNOMED -->
+			<xsd:element name="codingSystem" type="xsd:string" />
+			<!-- Optional to allow user added clarification/codes? Display = Knowledgename -->
+			<xsd:element name="display" type="xsd:string" minOccurs="0"
+				maxOccurs="1" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="ClarificationStatus">
+		<xsd:sequence>
+			<xsd:element name="userStatus" type="ccct:UserStatus" />
+			<!-- Future possibility to extend with system status -->
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:simpleType name="UserStatus">
+		<xsd:annotation>
+			<xsd:documentation>
+				Enumeration of reviewer clarification resolution/extraction statuses.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<!-- OTHER isn't applicable to be returned, since not a pesisted engine 
+				state and only user update applicabaility. DOES_NOT_APPLY isn't redisplayed 
+				and not applicable -->
+			<xsd:enumeration value="CONCUR" />
+			<xsd:enumeration value="NOT_SHOWN" />
+			<xsd:enumeration value="SHOWN" />
+			<xsd:enumeration value="INDETERMINATE" />
+			<xsd:enumeration value="ASK_AGAIN_LATER" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:complexType name="Token">
+		<xsd:annotation>
+			<xsd:documentation>
+				Represents a word(s) within the document text associated with the
+				clarification.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="text" type="xsd:string" minOccurs="1"
+				maxOccurs="1" />
+			<xsd:element name="dataPosition" type="xsd:int"
+				minOccurs="1" maxOccurs="1" />
+			<xsd:element name="id" type="xsd:string" minOccurs="1"
+				maxOccurs="1" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+</xsd:schema>

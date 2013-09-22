@@ -1,0 +1,2 @@
+09/11/13 12:22:39.351 INFO  main  com.nuance.clu.common.util.aspect.CluMethodLoggingAspect-Called: String com.nuance.clu.server.sdk.client.CLUDocumentImportServiceStub.RequestStatus.toString() with: 
+09/11/13 12:22:39.366 INFO  main  com.nuance.clu.common.util.aspect.CluMethodLoggingAspect-Method: String com.nuance.clu.server.sdk.client.CLUDocumentImportServiceStub.RequestStatus.toString()- responded with: OK

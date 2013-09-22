@@ -1,0 +1,54 @@
+mrn=SDA0000000
+visitcode=SDA400849401
+authorid=sdacern4
+correlationid=
+lastName=lastNameSA
+firstName=firstNameSA
+dateOfBirth=2012-01-31
+gender=M
+visitStart=2012-01-31 01:02:03
+REASON FOR CONSULTATION: Chest pain. HISTORY OF PRESENT ILLNESS:  JOHN DOE is a very pleasant 55-year-old male with a known cardiac history who sees DOCTOR JOHN.  He was out ??_____ boating 
+with friends yesterday, he had onset of sharp midsternal chest pain rated approximately MM/DD/YYYY.  It was not associated with any other symptoms such as nausea, diaphoresis, lightheadedness or dizziness.  This chest pain was relieved with 2 doses of sublingual nitroglycerin.  He admits that he thinks his friends over reacted by calling 911 and he really did not want to come to the hospital but he did anyway.  He has not had any recurrence of the chest pain since being here in the hospital.  He does have a history of coronary artery disease and is status post stenting of the distal circumflex in MM/DD/YYYY.  He admits that he does occasionally have some chest pain and some shortness of breath with activities but always relieved by nitroglycerin.  He has been taking all of his medications as directed and he sees DOCTOR JOHN as advised.
+
+PAST MEDICAL HISTORY:  Coronary artery disease, hypertension, hyperlipidemia, gastroesophageal reflux disease, degenerative disk disease of the back for which he is disabled.
+
+PAST SURGICAL HISTORY:  Recent left hand surgery and a remote right knee surgery.
+
+SOCIAL HISTORY:  He is married.  He is disabled for 10 years due to his back.  He quit smoking in MM/DD/YYYY with a greater than 40-pack-year history.
+
+FAMILY HISTORY:  Positive for multiple relatives including father, uncles and siblings with vascular disease.
+
+REVIEW OF SYSTEMS:  He denies any recent fever, chills, weight gain or weight loss.  He denies any upper respiratory symptoms.  He has had occasional chest pain relieved with nitroglycerin.  He has noticed some worsening of shortness of breath with activities over the last few months.  He does have a little bit of cough also at times.  He denies any abdominal pain, change in bowel habits.  He has also noticed headaches fairly severe throbbing type headaches in the last week.  He denies any confusion or disorientation.  He admits that he does feel lightheaded and woozy at times when he changes positions frequently.  He denies any myalgias or arthralgias, although, he does have some chronic low back pain.  He denies any difficulty with urination and has no flank pain.  He denies any abdominal pain or change in bowel or bladder habits.  He denies any noticeable pedal edema.  He has not noticed any skin rash or any bleeding problems.  He overall has felt well recently.
+
+PHYSICAL EXAMINATION:
+GENERAL:  This is a pleasant, 55-year-old, white male in no acute distress.
+VITAL SIGNS:  Temperature 98.8, 143/84, pulse 102, respirations 16.
+HEENT:  Pupils equal, react to light and accommodation.  Mucous membranes are moist.
+NECK:  Supple with no thyromegaly, no adenopathy.
+CHEST:  His lung sounds are clear and equal bilaterally.  Respirations are unlabored.
+CARDIOVASCULAR:  Reveals S1, S2 with no murmurs, clicks or rubs.  PMI is nondisplaced.  Carotid upstroke is equal bilaterally.  There is no jugular venous distention.  There is no carotid bruit heard.
+GASTROINTESTINAL:  Abdomen is large and soft with positive bowel sounds.  Nontender to palpation.
+GENITOURINARY:  Deferred.
+MUSCULOSKELETAL:  He moves all 4 extremities equally.
+NEUROLOGIC:  He is alert and oriented x3, nonfocal.
+SKIN:  Without rash.
+EXTREMITIES:  Without edema and pulses are palpable.
+PSYCHIATRIC:  Has appropriate, pleasant mood.HEMATOLOGY:  There are no signs of bleeding.DIAGNOSTIC DATA:  His 12-lead EKG shows a left bundle-branch block with normal sinus rhythm.  No acute changes from prior EKG.  His troponins have been negative.  His other lab work is all basically normal and his nuclear stress test results are pending.
+
+MEDICATIONS:  Aspirin 325 mg daily, metoprolol 12.5 mg daily, lisinopril 5 mg daily, Plavix 75 mg daily, Protonix 40 mg daily, allopurinol 300 mg daily, Crestor 20 mg daily, nitroglycerin patch 1 mg per hour daily and possibly an inhaler daily.
+
+ALLERGIES:  NO KNOWN DRUG ALLERGIES.
+
+ASSESSMENT:
+1.  Chest pain, rule out acute coronary syndrome.
+2.  Hyperlipidemia, on medications.
+3.  Known history of coronary artery disease, status post stenting of circumflex in MM/DD/YYYY.
+4.  Hypertension, well controlled.
+
+RECOMMENDATIONS:  He has been monitored on telemetry.  His rhythm has been stable.  His troponins are negative.  
+He has had a nuclear stress test done.  
+In light of his recent possible worsening anginal symptoms despite a negative stress test, we discussed the possible need for heart catheterization.  
+He declines this at this time and would prefer to continue to treat medically.  
+He does have nitroglycerin to use sublingual as needed and he knows that if his chest pain is unrelieved by nitroglycerin that he should seek medical attention immediately.  
+We discussed this at length and he wishes to go home if the stress test is negative.  He will follow up with DOCTOR JOHN in the office in the next couple of weeks.  
+He will present to the Emergency Department if he has any chest pain or worsening anginal symptoms.

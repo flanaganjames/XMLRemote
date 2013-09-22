@@ -1,0 +1,249 @@
+
+
+Stroke Neurology
+
+Patient:    MRN: FIN: 
+Age:    58 years     Sex:   Female     DOB:   09/01/54
+Associated Diagnoses:     None
+Author:    
+
+Visit Information
+  Subjective: :  c/o mild HA, but otherwise much better. No new complaints   .  
+  Medication List :  ,  
+
+  Active Scheduled Medications 
+  acyclovir 
+  630 mg, IV, Q8H (Every 8 hours), 04/11/13 6:00:00 EDT, 162.6 mL/hr 
+  amLODIPine 
+  5 mg, TAB, PO, Daily, 04/11/13 9:00:00 EDT, Hold for SBP    < 110 
+  aspirin 
+  81 mg, EC Tablet, PO, Daily, 04/11/13 9:00:00 EDT 
+  cefTRIAXone 
+  1 GM, IV, Daily, 04/11/13 19:00:00 EDT, 100 mL/hr 
+  enoxaparin 
+  40 mg, INJ, Subcut, Daily, 04/11/13 9:00:00 EDT, (Lovenox) 
+  glipiZIDE 
+  10 mg, TAB ER, PO, Daily, 04/11/13 7:30:00 EDT 
+  insulin glargine 
+  25 Unit, INJ, Subcut, BID (2 times a day), NOW, 04/11/13 8:03:00 EDT 
+  insulin lispro 
+  HIGH DOSE, INJ, Subcut, WMHS (With meals and at bedtime), 04/11/13 12:00:00 EDT, (Humalog),
+   Correctional Dose Insulin High Dose Schedule 
+  lisinopril 
+  40 mg, TAB, PO, Daily, 04/11/13 9:00:00 EDT, Hold for SBP    < 110 
+  simvastatin 
+  20 mg, TAB, PO, QHS (At bedtime), 04/10/13 21:00:00 EDT 
+  Sodium Chloride 
+  10 mL, SYRINGE, IV Push, Q8H (Every 8 hours), 04/10/13 22:00:00 EDT, Flush 
+  Sodium Chloride 0.9% 1,000 mL 
+  1,000 mL, IV, 04/10/13 17:03:00 EDT, 75 mL/hr, Infuse over 13.3 HR 
+  vancomycin 
+  1.5 GM, IV, Q12H (Every 12 hours), 04/11/13 11:00:00 EDT, 250 mL/hr 
+  PRN Administrations in Last 24 Hours 
+  acetaminophen 
+  650 mg, TAB, PO, Q6H (Every 6 hours), PRN Other (see comment) Fever or Pain, Routine, 04/10/13
+
+   17:06:00 EDT 
+
+  .  
+
+  Home Medication List 
+
+  Medication 
+  acetaminophen-HYDROcodone(acetaminophen-HYDROcodone 500 mg-5 mg oral capsule)(acetaminophen-
+  HYDROcodone) 
+     1 CAP    By Mouth Every 4 hours   PRN Pain 
+  amLODIPine(amLODIPine 5 mg oral tablet)(amLODIPine) 
+  5  mg 1 TAB    By Mouth  DAILY 
+  aspirin(Aspir 81 oral delayed release tablet)(aspirin) 
+  81  mg 1 TAB    By Mouth  DAILY 
+  furosemide(Lasix 40 mg oral tablet)(furosemide) 
+  40  mg 1 TAB    By Mouth  DAILY 
+  glipiZIDE(GlipiZIDE XL 10 mg oral tablet, extended release)(glipiZIDE) 
+  10  mg 1 TAB    By Mouth  DAILY 
+  insulin glargine(Lantus 100 units/ml subcutaneous solution)(insulin glargine) 
+          Subcutaneous 
+
+  insulin regular(HumuLIN R 100 units/mL injectable solution)(insulin regular) 
+          Subcutaneous 
+  pravastatin(pravastatin 40 mg oral tablet)(pravastatin) 
+  40  mg 1 TAB    By Mouth  DAILY 
+  quinapril(Accupril 40 mg oral tablet)(quinapril) 
+  40  mg 1 TAB    By Mouth  DAILY 
+
+
+
+  Allergy Profile :  .  
+  Allergy LIST:  
+
+  Actos  Darvocet-N 100
+
+
+Review of Systems
+  Neurologic :  Negative except as documented in history of present illness.  
+  No change since last visit on  04/11/2013
+
+Physical Examination
+  Intake and Output
+
+
+  Intake  & Output - 07:00 yesterday to 06:59 today  
+  Total Intake                                                                     4442    
+  Urine Output(voided + catheter)                        2200    
+  Total Output                                                                     2200    
+  Balance                                                                          2242    
+
+  Urine Count                                                                              0
+
+  VS/Measurements
+
+
+
+  VITALS:  
+  BP:   135 / 81   Pulse:    86  Temp:   97.9   Resp Rate:   18
+  Tmax:    98.9  Wt(kg):   No weight recorded in last 24 hrs
+  Pain Score:   Pain Score   6    04/12/13 08:00  
+  O2 Sat:    96    04/12/13 07:16
+
+
+
+  General :  No acute distress.  
+  Neck :  Supple.  
+  Neurologic :  Cranial Nerves II-XII are grossly intact, Alert and oriented X 4,    Language fluent
+     and intact. Retrograde amnesia. No neglect. Motor intact x4. Sensation normal. Gait not
+     assessed .  
+  Psychiatric :  Cooperative, Appropriate mood   & affect, Normal judgment.  
+
+Objective
+  Radiology results :  .  
+
+  COMPLETED RADIOLOGY IMAGING STUDIES:  
+
+  XR Punc Spinal Lumbar DX [Final] (04/11 1316): Neither Impression nor Opinion Found
+
+
+  Micro Results :  .  
+    MICROBIOLOGY STUDIES RESULTED WITHIN THE LAST 2 DAYS.  See LAB tab for older results.
+
+  ____________________________________________________________________________________________________
+  Gram Stain
+
+   Collected: 04/11/13 12:55:00            Status:    Final            Source: CSF
+   Last Updated: 04/11/13 14:09:03                                 Site: LumbarSpine
+  GS Result:  No polymorphonuclear WBC  's seen. 
+                 No organisms seen.
+
+  ____________________________________________________________________________________________________
+  Culture,Urine
+   Collected: 04/10/13 16:50:00            Status:    Final            Source: U CleanCatch
+   Last Updated: 04/12/13 08:08:59                                 Site: *Same as Specimen Type*
+  Final Result:  10-20,000 cfu/ml Mixed flora (multiple species present) 
+                 Suggest recollection, if clinically indicated.
+
+  ____________________________________________________________________________________________________
+  Culture,Blood
+   Collected: 04/10/13 22:35:00            Status:    In Progress      Source: Blood
+   Last Updated: 04/12/13 08:04:37                                 Site: *Same as Specimen Type*
+  Pre Result:  No growth at 33 Hours
+
+  ____________________________________________________________________________________________________
+  Culture,Blood
+   Collected: 04/10/13 22:10:00            Status:    In Progress      Source: Blood
+   Last Updated: 04/12/13 08:04:36                                 Site: *Same as Specimen Type*
+  Pre Result:  No growth at 33 Hours
+
+
+  Lab Results :  .  
+
+
+  LABORATORY RESULTS:  
+
+  Glucose POC TAM   04/12/13 07:14
+    Glu POC TAM                       88
+
+  CBC and Plt w Diff   04/12/13 04:50
+    Instr WBC                          5.1
+    WBC                                5.1
+    RBC                                4.23
+    HGB                               11.6 L
+    HCT                               38.3
+    MCV                               90
+    MCH                               27
+    MCHC                              30 L
+    RDW                               14
+    Platelet                         194
+    MPV                               10.7
+    NRBC Absolute                      0
+
+  Basic Metabolic Panel   04/12/13 04:50
+    Sodium                           139
+    Potassium                          3.5 L
+    Chloride                         103
+    CO2                               29
+    Glucose                          201 H
+    BUN                               10
+    Creatinine                         0.7
+    Calcium                            8.8
+
+
+  Auto Diff   04/12/13 04:50
+    Neutro Auto                       38
+    Lymph Auto                        50 H
+    Mono Auto                          8
+    Eos Auto                           4
+
+    Basophil Auto                      0
+    Neutro Absolute                    1.92
+    Lymph Absolute                     2.56
+    Mono Absolute                      0.38
+    Eos Absolute                       0.23
+    Basophil  Absolute                 0.01
+
+  Renal Function Index   04/12/13 04:50
+    GFR                              104
+
+  Glucose POC TAM   04/11/13 20:31
+    Glu POC TAM                      227 H
+
+  Glucose POC TAM   04/11/13 16:36
+    Glu POC TAM                      297 H
+
+  Cell Count CSF   04/11/13 12:55
+    Tube Num CSF                       1
+    Appear CSF                    Clear
+    Color CSF                     Colorless
+    RBC CSF                            5 H
+    WBC CSF                            0
+    Differential? CSF             No
+
+  Protein Total CSF   04/11/13 12:55
+    Protein CSF                       30
+
+  Cell Count CSF   04/11/13 12:50
+    Tube Num CSF                       4
+    Appear CSF                    Clear
+    Color CSF                     Colorless
+    RBC CSF                            0
+    WBC CSF                            0
+    Differential? CSF             No
+
+  Glucose POC TAM   04/11/13 11:17
+    Glu POC TAM                      386 H
+
+
+Review / Management
+  Diagnosis/Impression :   Marked improvment in mental status. Essentially returned to normal now. 
+
+  Etiology at this point is most likely encephalopathy associated with UTI. This is very common
+     in older patients, but unusual at her age.   .  
+  Plan :  1) agree with d/c meds for meningitis
+  2) continue tx UTI
+  3) pain control for HA, consider toradol 15mg IV
+
+  Please call with questions.  
+
+[Electronically Signed By:]  
+__________________________________________________________ 
+  
+On, 04/12/2013 09:27 AM
+

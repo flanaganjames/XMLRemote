@@ -1,0 +1,44 @@
+mrn=1234501
+visitcode=2101
+authorid=JRF
+correlationid=
+lastName=Patient
+firstName=Name
+dateOfBirth=1956-01-01
+gender=F
+visitStart=2012-01-31 01:02:03
+
+Presents with altered mental status.
+Patient is a 57 yo chronic alcoholic,with h/o cirrhosis, hx of ascites, well known to our ED.
+
+Last hospitalized 1 month ago for upper GI bleed secondary to esophageal varices, which were at the time sclerosed by GI consultant. Required 4 units of packed RBC transfusion. S
+
+Presents today via ambulance after his girlfriend found him to be increasingly more lethargic,and slightly disoriented. Hasn't eaten well last few days. No vomiting noted. Appears a bit more "yellow" than usual. Not much urine output.
+
+Difficult to obtain any other history,but GF denies any falls/trauma, complaints recently of headaches, visual changes.
+
+Allergies-none
+PMH-other than as per HPI, unremarkable
+Exam-BP 100/50, HR-100, Temp-100.3rectal, RR-20
+Skin-slighly jaundiced
+HEENT-dry mucous membranes, ? odor of ketones on breath
+eyes sunken, conjunctivae icteric
+Neck supple, no lymph nodes
+Lungs clear
+Cardiac RRR, no M or gallops
+Abd-nontender, distended, positive shifting dullness, BS's slightly decreased
+Rectal, no gross melena or blood, but 1+ heme positive
+Exts-tr pitting edema bilt ankles
+Neuro-arousable, but falls back to sleep easily, oriented to person, place, but not time
++asterixis
+Motor exam otherwise non -focal
+Toes bilat downgoing
+Labs-CBC WBC 12,300, w/90% neutrophils, H/H 12.3/37%.,plts-75,000
+Chemistries Na+ 128 Cl- 99 BUN-12 Cr-1.6 BS-95, Ca+2=7.2 Alb=2.7 Bili(T)=2.3,SGPT-123 SGOT-114 serum ammonia-75
+PT-14.7seconds
+ 
+CT head atrophy no acute pathology
+Chest xray NAD , elevated bilat diaphragms
+
+PLAN
+Propranolol 10mgs BID, Multivitamins 1 per day, Lactulose 30cc's BID, Nicoderm Patch , Protonix 40mgs a day, Folate 5mgs a day.

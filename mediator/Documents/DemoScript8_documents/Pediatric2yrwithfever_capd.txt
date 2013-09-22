@@ -1,0 +1,96 @@
+﻿mrn=12340007
+visitcode=7002
+authorid=JRF
+correlationid=
+lastName=Pediatric
+firstName=Twoyear
+dateOfBirth=2010-01-31
+gender=M
+visitStart=2012-01-31 01:02:03
+
+History and Physical: Brandon Johnson
+
+Chief Complaint: 
+Abdominal pain and fever 
+
+Subjective/History of Present Illness
+Two year old male presents as a direct admission with a history of fevers. Mother stated that her son woke up from a nap yesterday at 5pm looking flushed. Mother gave him ibuprofen for a subjective fever and took him to an after-hours pediatrician office around 7pm. Patient had a 103F fever and vomited while he was there. He was treated with Tylenol and Zofran and was discharged. At 3am today, mother noted that he had another fever and gave her son Ibuprofen. She took him to office physician and blood work was done, was found to have a 100F fever and blood work revealed a 30,000 white count. Pt. was tender to palpation in the RLQ and PCP was suspicious of appendicitis. Pt. was sent to peds for further evaluation and observation. Mother states that patient also has a cough and recently was diagnosed with bronchitis and was treated for 2 weeks with albuterol and budesonide at home. Mother denies diarrhea. Mother says weight loss of 0.75kg during illness with current weight of 10.8kg
+
+Allergy Profile
+NKA
+
+Active Scheduled Medications 
+D5 ½ NS w/ KCl 20 mEq/mL, 60 mL/hr, (infuse over 16.7 HR)
+Zithromax (10 mg/kg) 108 mg IV q day
+Ceftriaxone (50 mg/kg) 540 mg IV q day
+
+Home Medication List 
+Albuterol 1.25 mg/3 mL (0.042%) inhalation solution 1.25 mg (3 mL) NEB inhalation TID
+  Comment(s): patient was using nebulizer for dx of bronchitis 2 weeks ago 
+
+Past Medical History 
+Hospitalizations: None
+Surgeries: Circumcision
+Birth history: Unremarkable
+Immunizations: Up to date
+Social History: No tobacco exposure, lives with family and attends preschool
+
+Review of Systems
+Constitutional: Fever, chills and some decreased activity 
+Eye: Negative
+Ear/Nose/Mouth/Throat: Treated for a recent ear infection
+Respiratory: Mild cough and history of bronchiolitis 
+Cardiovascular: Negative  
+Gastrointestinal: Nausea, vomiting and abdominal pain, moderate in severity with no diarrhea
+Genitourinary: No dysuria or change in urine stream
+Hematology/Lymphatics: Negative
+Endocrine: Negative 
+Immunologic: Negative
+Musculoskeletal: Negative 
+Integumentary: No rash
+Neurologic: Negative  
+
+Physical Examination
+VS:  BP: 107/68 P: 120 Temp: 100.0 RR: 24 Tmax: 100.0 
+Clinical Height: 83 cm Clinical Weight: 10.8 kg BMI: 15.7 BSA: 0.49 m2   
+General:  No acute distress and acting appropriately for age
+Eye:  Pupils are equal, round and reactive to light; extraocular movements are intact, normal conjunctiva, tracks and follows well
+HENT:  Normocephalic, tympanic membranes are clear, normal hearing; oral mucosa is moist, no pharyngeal erythema, ear canals patent
+Neck:  Supple, non-tender, no lymphadenopathy, no thyromegaly, full range of motion
+Respiratory:  Lungs are clear to auscultation, respirations are non-labored, and breath sounds are equal
+Cardiovascular:  Normal rate, Regular rhythm, no murmur, normal peripheral perfusion, no edema
+Gastrointestinal:  Soft, Non-distended, Normal bowel sounds, no organomegally, flinches when   palpated in the RLQ
+Genitourinary:  No costovertebral angle tenderness, normal genitalia for age and sex
+Lymphatics:  No lymphadenopathy neck, axilla, groin
+Musculoskeletal:  Normal range of motion, normal strength
+Integumentary:  Warm, dry and intact  
+Neurologic:  Alert, no focal deficits, cranial nerves II-XII are grossly intact
+Psychiatric:  Cooperative, appropriate mood and affect
+
+Lab Results
+CBC: WBC 48K; RBC 4.86; HGB 11.4; HCT 34.8; Platelet 260K
+Manual Diff: Segs 68; Band 16, Lymph 10; Mono 6
+CMP: Sodium 131; Potassium 3.7; Chloride 97; CO2 20; Glucose 83; BUN 5; Creatinine 0.2; Calcium 9.9; Total Protein 7.4; Albumin 3.9; Total Bili 0.5; Alkaline Phos 185; AST 19; ALT (SGPT) 7
+C Reactive Protein 12
+
+Radiology Results
+Chest X-ray: Impression: There are prominent central markings. Alveolar appearing opacity in the right upper lobe is consistent with infiltrate.
+
+CT Abdomen/Pelvis w/ contrast: Impression: No visualization of the appendix. There are no secondary findings to suggest acute appendicitis however acute appendicitis cannot be excluded but is felt unlikely. Clinical correlation is recommended.
+
+Review / Management
+Diagnosis
+(1)	Abdominal pain, acute, RLQ 
+(2)	Cough
+(3)	Fever
+(4)	Nausea and vomiting  that could be early acute gastroenteritis
+(5)	Pneumonia
+(6)	Weight Loss
+(7)	Leukocytosis 
+
+Plan
+Lab: Urinalysis w/Reflex Microscopic and Cult, Blood culture
+NPO for now
+Close observation
+IV Fluids
+

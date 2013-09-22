@@ -1,0 +1,42 @@
+mrn=ZMRN0001199
+visitcode=34V555800008
+authorid=sdacern2
+correlationid=
+CHIEF COMPLAINT: the patient presents with syncope
+ 
+HISTORY OF PRESENT ILLNESS: The syncope episode occurred after vomiting. The patient recently developed a rash from Septra taken for a UTI
+ 
+REVIEW OF SYSTEMS:  A complete review of 13 systems was otherwise negative including constitutional, skin, neurologic, psychiatric, eyes, ears nose and throat, hematologic lymphatic, endocrine, cardiovascular, respiratory, gastrointestinal, urologic and musculoskeletal. 
+ 
+MEDICATIONS:  Aspirin 81 mg p.o. daily.
+Enalapril 10 mg p.o. daily.
+Glimepiride 2 mg p.o daily.
+Metformin 500 mg p.o. qid.
+Paxil 20 mg p.o. daily.
+Pravachol 10 mg p.o daily.
+ 
+ALLERGIES: Penicillin causes hives (2001).
+Tetracycline causes rash (2008).
+
+PAST MEDICAL HISTORY: Type II Diabetes mellitus (1995).
+Hypertension (1999).
+Chronic Kidney Disease (2002).
+Systolic Congestive Heart Failure (2010).
+ 
+PAST SURGICAL HISTORY: the patient had an ORIF in 2002
+ 
+SOCIAL HISTORY: Cigarettes 10 pack years, quit in 2001. 
+Drinks alcohol occasionally.
+ 
+FAMILY HISTORY: Father died of heart disease at age 62.
+Mother died of stroke at age 78.
+No siblings.
+ 
+PHYSICAL EXAMINATION:  blood pressure 85/50, pulse 110, respiratory rate 30. Chest clear. Abdomen nontender. 
+ 
+RESULTS:  white count 24 with a left shift. Glucose elevated at 180.
+ 
+ASSESSMENT: 
+ 
+PLAN:  admit for antibiotics and management of CHF and diabetes.
+ 

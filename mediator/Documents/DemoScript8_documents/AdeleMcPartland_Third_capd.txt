@@ -1,0 +1,23 @@
+mrn=22340000
+visitcode=22340000_0009
+authorid=JRF
+correlationid=
+lastName=McPartland
+firstName=Adele
+dateOfBirth=1928-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+
+SUBJECTIVE
+Mental status improved Patient now has a cough. 
+OBJECTIVE
+Blood pressure 110/60, Pulse 85. RR 25. Temperature 38.0.  She is oriented times person place and date. Neurologic exam non-focal. Chest reveals rales. 
+RESULTS
+CXR reveals bilateral infiltrates
+RESULTS
+MRSA positive blood culture. Sodium 128.
+ASSESSMENT
+Pneumonia resistant to previous treatment.
+Hepatic Encephalopathy is improving. Hyponatremia improving. 
+PLAN
+We will start Vancomycin as IV antibiotics to cover MRSA.
