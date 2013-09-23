@@ -62,6 +62,7 @@ post '/showevidenceNUA' do
         ahash[:documentationText] = element.elements["documentationText"].get_text
         $claris << ahash
     }
+    $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
     erb:showclarisNUA
 end
 
