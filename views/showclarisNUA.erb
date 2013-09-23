@@ -7,7 +7,7 @@ aForm = aForm + " <form action=\"/board\" method=\"post\"> "
 aForm = aForm + "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"> "
 aForm = aForm + "<head> <title>Clarifications</title> </head> <body> "
 aForm = aForm + "<div> <table> "
-aForm = aForm + "<td>Clarifications for:</td> <th> #{$thefile} </th>"
+aForm = aForm + "<td>Evidence for:</td> <th> #{$thefile} </th>"
 aForm = aForm + " </table> </div>"
 aForm = aForm + "<div> <table> "
  
@@ -23,7 +23,7 @@ aForm = aForm + "<td> <input type = \"text\" name = \"clari#{i}\" value =\"#{acl
 aForm = aForm + "<tr>"
 
 aForm = aForm + "</table></div>"
-aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Return to / Refresh File List\" formaction = \"/showfilesNUA\"/>"
+aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Return to Choose File\" formaction = \"/showfilesNUA\"/>"
 aForm = aForm + "</body> </form> </html>"
 
 return aForm
