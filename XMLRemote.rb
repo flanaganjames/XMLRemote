@@ -31,6 +31,11 @@ post '/showclaris' do
     #aString = params['myfile'][:filename][:body]
     #doc = REXML::Document.new afile
     
+    params[input.files].each {|ahash|
+    puts ahash
+    }
+
+    
     $thefile = params["myfile"][:filename]
     aString = params['myfile'][:tempfile].read
     doc = REXML::Document.new aString
