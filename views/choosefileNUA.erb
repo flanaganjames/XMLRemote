@@ -3,15 +3,27 @@ aForm = <<-eos
 <form  method="post" enctype='multipart/form-data'
 <html>
 <head> <title>Files</title> 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery-1.10.2-uncompressed-link.js"></script>
+<script>
+var numberoffiles;
+var selectedfile;
+$(document).ready(function(){
+  $("#sam").click(function(){
+afileobject = document.getElementById("dave");
+alert("file number = ");
+alert(afileobject.accept);
 
+});
+});
+</script>
 </head>
 
 </head> <body> <div> <table>
 
 <tr>
-<td> <input type = "file"  id=\"input\" name = "myfile" value ="Choose File" </td>
-<td> <input type = "submit"  style= "font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: lightgray; border: 3pt ridge lightgrey" name="gobutton" id="sam" value="Evidence" formaction = "/showevidenceNUA"/> </td> 
+<td> <input type = "file"  id="dave" name="chosenfiles[]" value ="Choose File" multiple = "multiple"/></td>
+<td> <input type = "button"  id="sam" name = "showfiles" value ="Show Files" /> </td>
+<td> <input type = "submit"  id = "bob" style= "font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: lightgray; border: 3pt ridge lightgrey" name="gobutton" id="sam" value="Evidence" formaction = "/showfilesNUA"/> </td> 
 
 
 

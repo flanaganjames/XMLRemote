@@ -1,0 +1,28 @@
+<%      
+
+aForm = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">"
+aForm = aForm + " <form action=\"/board\" method=\"post\"> "
+aForm = aForm + "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"> "
+aForm = aForm + "<head> <title>Files</title> </head> <body> <div> <table> "
+aForm = aForm + "<th>File</th> <th>C<=3</th> <th>C=3</th> <th>DQR</th> "
+
+$files.each_index {|i| afile = $files[i]
+aForm = aForm + "<tr>"
+aForm = aForm + "<td> <input type = \"text\" name = \"file#{i}\" value =\"#{afile}\" size = \"40\"</td>" 
+aForm = aForm  + "<td> <input type = \"submit\" style=\"font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: teal; border: 3pt ridge lightgrey\" name=\"evidence\" value = \"#{i}\" formaction = \"/showevidence\"/> </td> "
+aForm = aForm  + "<td> <input type = \"submit\" style=\"font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: teal; border: 3pt ridge lightgrey\" name=\"clarifications\" value = \"#{i}\" formaction = \"/showclaris\"/> </td> "
+aForm = aForm  + "<td> <input type = \"submit\" style=\"font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: teal; border: 3pt ridge lightgrey\" name=\"clarifications\" value = \"#{i}\" formaction = \"/showclarisDQR\"/> </td> "
+
+}
+aForm = aForm + "<tr>"
+
+aForm = aForm + "</table></div>"
+aForm = aForm + "</body> </form> </html>"
+
+return aForm
+%>
+ 
+ 
+
+ 
+ 

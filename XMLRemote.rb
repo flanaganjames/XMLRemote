@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require "rexml/document"
 include REXML
-
+require 'pp'
 
 get '/' do
     #FileUtils.rm_rf(Dir.glob('uploads/*'))
@@ -19,6 +19,16 @@ get '/dqr' do
     erb:choosefileDQR
 end
 
+post '/showfilesNUA' do
+    pp params
+    params["chosenfiles"].each {|file|
+        pp file
+        puts file[:filename]
+    }
+    
+    
+    #erb:showfilesNUA
+end
 
 post '/showclaris' do
     
@@ -49,7 +59,8 @@ post '/showclaris' do
 end
 
 post '/showevidenceNUA' do
-    $thefile = params["myfile"][:filename]
+    
+    $thefile = params["selectedfile"]
     aString = params['myfile'][:tempfile].read
     doc = REXML::Document.new aString
     $claris = []
