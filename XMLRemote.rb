@@ -19,15 +19,72 @@ get '/dqr' do
     erb:choosefileDQR
 end
 
-post '/showfilesNUA' do
-    pp params
+post '/showfirstfileNUA' do
+    #pp params
+    $thefiles = []
+    $thetempfiles = []
     params["chosenfiles"].each {|file|
-        pp file
-        puts file[:filename]
+        #pp file
+        $thefiles << file[:filename]
+        $thetempfiles << file[:tempfile]
     }
+    $currentfile = 0
     
+    $thefile = $thefiles[$currentfile]
+    aString = $thetempfiles[$currentfile].read
+    doc = REXML::Document.new aString
+    $claris = []
+    doc.elements.each("ns3:cclad/ns3:canonicalClarificationDocument/ns3:clarification") { |element|
+        ahash = {}
+        ahash[:family] = element.elements["family"].get_text
+        ahash[:kind] = element.elements["kind"].get_text if element.elements["kind"]
+        ahash[:type] = element.elements["type"].get_text if element.elements["type"]
+        ahash[:confidence] = element.elements["confidence"].text.to_i
+        ahash[:documentationText] = element.elements["documentationText"].get_text
+        $claris << ahash
+    }
+    $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
+    erb:showclarisNUA
+end
+
+post '/shownextfileNUA' do
+    $currentfile = $currentfile + 1 if $currentfile < $thefiles.size - 1
     
-    #erb:showfilesNUA
+    $thefile = $thefiles[$currentfile]
+    aString = $thetempfiles[$currentfile].read
+    doc = REXML::Document.new aString
+    $claris = []
+    doc.elements.each("ns3:cclad/ns3:canonicalClarificationDocument/ns3:clarification") { |element|
+        ahash = {}
+        ahash[:family] = element.elements["family"].get_text
+        ahash[:kind] = element.elements["kind"].get_text if element.elements["kind"]
+        ahash[:type] = element.elements["type"].get_text if element.elements["type"]
+        ahash[:confidence] = element.elements["confidence"].text.to_i
+        ahash[:documentationText] = element.elements["documentationText"].get_text
+        $claris << ahash
+    }
+    $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
+    erb:showclarisNUA
+end
+
+post '/showprevfileNUA' do
+    $currentfile = $currentfile - 1 if $currentfile > 0
+    
+    $thefile = $thefiles[$currentfile]
+    aString = $thetempfiles[$currentfile].read
+    doc = REXML::Document.new aString
+    $claris = []
+    doc.elements.each("ns3:cclad/ns3:canonicalClarificationDocument/ns3:clarification") { |element|
+        ahash = {}
+        ahash[:family] = element.elements["family"].get_text
+        ahash[:kind] = element.elements["kind"].get_text if element.elements["kind"]
+        ahash[:type] = element.elements["type"].get_text if element.elements["type"]
+        ahash[:confidence] = element.elements["confidence"].text.to_i
+        ahash[:documentationText] = element.elements["documentationText"].get_text
+        $claris << ahash
+    }
+    $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
+    erb:showclarisNUA
 end
 
 post '/showclaris' do
@@ -101,7 +158,7 @@ post '/showfiles' do
     erb:choosefile
 end
 
-post '/showfilesNUA' do
+post '/showchoosefilesNUA' do
     erb:choosefileNUA
 end
 

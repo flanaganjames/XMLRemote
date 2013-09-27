@@ -1,10 +1,10 @@
 <%      
+aForm = <<-eos
+<form method="post"
 
-aForm = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">"
-aForm = aForm + " <form action=\"/board\" method=\"post\"> "
-aForm = aForm + "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"> "
-aForm = aForm + "<head> <title>Files</title> </head> <body> <div> <table> "
-aForm = aForm + "<th>File</th> <th>C<=3</th> <th>C=3</th> <th>DQR</th> "
+<head> <title>Files</title> </head> 
+<body> <div> <table> 
+<th>File</th> <th>C<=3</th> <th>C=3</th> <th>DQR</th> 
 
 $files.each_index {|i| afile = $files[i]
 aForm = aForm + "<tr>"

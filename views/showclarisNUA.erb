@@ -23,7 +23,9 @@ aForm = aForm + "<td> <input type = \"text\" name = \"clari#{i}\" value =\"#{acl
 aForm = aForm + "<tr>"
 
 aForm = aForm + "</table></div>"
-aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Return to Choose File\" formaction = \"/showfilesNUA\"/>"
+aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Next File\" formaction = \"/shownextfileNUA\"/>"
+aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Prev File\" formaction = \"/showprevfileNUA\"/>"
+aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Return to Choose File\" formaction = \"/showchoosefilesNUA\"/>"
 aForm = aForm + "</body> </form> </html>"
 
 return aForm
