@@ -6,6 +6,11 @@ aForm = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www
 aForm = aForm + " <form action=\"/board\" method=\"post\"> "
 aForm = aForm + "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"> "
 aForm = aForm + "<head> <title>Clarifications</title> </head> <body> "
+
+aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Next File\" formaction = \"/shownextfileNUA\"/>"
+aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Prev File\" formaction = \"/showprevfileNUA\"/>"
+aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Return to Choose File\" formaction = \"/showchoosefilesNUA\"/>"
+
 aForm = aForm + "<div> <table> "
 aForm = aForm + "<td>Evidence for:</td> <th> #{$thefile} </th>"
 aForm = aForm + " </table> </div>"
@@ -23,9 +28,7 @@ aForm = aForm + "<td> <input type = \"text\" name = \"clari#{i}\" value =\"#{acl
 aForm = aForm + "<tr>"
 
 aForm = aForm + "</table></div>"
-aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Next File\" formaction = \"/shownextfileNUA\"/>"
-aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Prev File\" formaction = \"/showprevfileNUA\"/>"
-aForm = aForm  + "<input type = \"submit\" name=\"return\" value = \"Return to Choose File\" formaction = \"/showchoosefilesNUA\"/>"
+
 aForm = aForm + "</body> </form> </html>"
 
 return aForm
