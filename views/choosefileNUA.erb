@@ -10,10 +10,14 @@ $(document).ready(function(){
 afileobject = document.getElementById("dave");
 var n = afileobject["files"]["length"];
 i = 0;
-alert(n)
+// alert(n)
 while (i < n)
-{alert(i);
-alert(afileobject["files"][i]["name"]);
+{
+// alert(i);
+// alert(afileobject["files"][i]["name"]);
+$("table").after("<p>");
+$("table").after(afileobject["files"][i]["name"]);
+$("table").after("</p>");
 i = i + 1;
 }
 });
