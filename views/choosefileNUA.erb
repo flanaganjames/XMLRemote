@@ -5,14 +5,21 @@ aForm = <<-eos
 <head> <title>Files</title> 
 <script src="jquery-1.10.2-uncompressed-link.js"></script>
 <script>
-var numberoffiles;
-var selectedfile;
 $(document).ready(function(){
   $("#sam").click(function(){
 afileobject = document.getElementById("dave");
-alert("file number = ");
-alert(afileobject.accept);
-
+for(var element in afileobject)
+{
+alert("************************** ELEMENT: " + element)
+for(var subelement in element)
+{
+alert("************************** SUBELEMENT: " + subelement)
+for(var subsubelement in subelement)
+{
+alert("                         | SUBSUBELEMENT: " + subsubelement)
+}
+}
+}
 });
 });
 </script>
@@ -22,7 +29,7 @@ alert(afileobject.accept);
 
 <tr>
 <td> <input type = "file"  id="dave" name="chosenfiles[]" value ="Choose File" multiple = "multiple"/></td>
-
+<td> <input type = "button" id="sam" name="Button" value="Show Files" /> </td>
 <td> <input type = "submit"  id = "bob" style= "font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: lightgray; border: 3pt ridge lightgrey" name="gobutton" id="sam" value="Evidence" formaction = "/showfirstfileNUA"/> </td> 
 
 
