@@ -8,13 +8,17 @@ aForm = <<-eos
 $(document).ready(function(){
   $("#sam").click(function(){
 afileobject = document.getElementById("dave");
-var n = afileobject["files"]["length"];
-i = 0;
-alert(n)
-while (i < n)
-{alert(i);
-alert(afileobject["files"][i]["name"]);
-i = i + 1;
+for(var element in afileobject["files"]["item"])
+{
+alert("************************** ELEMENT: " + element)
+for(var subelement in element)
+{
+alert("************************** SUBELEMENT: " + subelement)
+for(var subsubelement in subelement)
+{
+alert("                         | SUBSUBELEMENT: " + subsubelement)
+}
+}
 }
 });
 });
