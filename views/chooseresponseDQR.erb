@@ -1,0 +1,27 @@
+<%      
+aForm = <<-eos
+<form  method="post" enctype='multipart/form-data'
+<html>
+<head> <title>Files</title> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+</head> <body> <div> <table>
+
+<tr>
+<th> MRN </th> <td> <input type = "text" value =$theClari[:mrn] /> </td>
+
+</tr>
+</table></div>
+
+<input type = "submit" name="gobutton" value="Submit" formaction = "/submitresponseDQR"/> 
+
+</body> </form> </html>
+eos
+return aForm
+%>
+ 
+ 
+
+ 
+ 

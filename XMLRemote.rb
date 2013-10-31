@@ -216,9 +216,34 @@ post '/showfirstfileDQR' do
     $thefile = $thefiles[$currentfile]
     aString = $thetempfiles[$currentfile]
     doc = REXML::Document.new aString
+    themrn = doc.elements["ns2:DqrClarifications/Person/Id"].get_text
+    thevisit = doc.elements["ns2:DqrClarifications/EncounterId"].get_text
+    theauthor = ""
+    thecorrelationid = ""
+    thelastname = ""
+    thefirstname = ""
+    thedateofbirth =  doc.elements["ns2:DqrClarifications/Person/DOB"].get_text
+    thegender = doc.elements["ns2:DqrClarifications/Person/Gender"].get_text
+    thevisitstart = ""
+    thediscard = ""
+    thepor = ""
+    
     $claris = []
     doc.elements.each("ns2:DqrClarifications/Clarification") { |element|
         ahash = {}
+        ahash[:mrn] = themrn
+        ahash[:visit] = thevisit
+        ahash[:author] = theauthor
+        ahash[:correlationid] = thecorrelationid
+        ahash[:lastname] = thelastname
+        ahash[:firstname] = thefirstname
+        ahash[:dateofbirth] = thedateofbirth
+        ahash[:gender] = thegender
+        ahash[:visitstart] = thevisitstart
+        ahash[:discard] = thediscard
+        ahash[:por] = thepor
+        
+        ahash[:docid] = element.elements["Document/Id"].get_text
         ahash[:family] = element.elements["Family"].get_text
         ahash[:kind] = element.elements["Kind"].get_text if element.elements["Kind"]
         ahash[:type] = element.elements["Type"].get_text if element.elements["Type"]
@@ -229,6 +254,12 @@ post '/showfirstfileDQR' do
     #puts "family: #{element.elements["family"]}, kind: #{element.elements["kind"]}, type: #{element.elements["type"]}, confidence: #{element.elements["confidence"]}" }
     $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
     erb:showclarisDQR
+end
+
+post '/selectresponse' do
+    
+    
+    erb:chooseresponseDQR
 end
 
 post '/shownextfileDQR' do
