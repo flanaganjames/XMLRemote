@@ -212,7 +212,7 @@ post '/showfirstfileDQR' do
         $thetempfiles << file[:tempfile].read
     }
     $currentfile = 0
-    
+    $thePath = ""
     $thefile = $thefiles[$currentfile]
     aString = $thetempfiles[$currentfile]
     doc = REXML::Document.new aString
@@ -256,10 +256,39 @@ post '/showfirstfileDQR' do
     erb:showclarisDQR
 end
 
-post '/selectresponse' do
-    
-    
+post '/chooseresponseDQR' do
+    $theClari = $claris[params["clarification"].to_i]
     erb:chooseresponseDQR
+end
+
+post '/createresponsefileDQR' do
+    $thePath = params["path"]
+    afilename = "#{params["path"]}/inputarchive/#{$theClari[:docid]}.#{params["response"]}_capd.txt"
+    afile = File.open(afilename, "w")
+    afile.puts("mrn=#{$theClari[:mrn]}")
+    afile.puts("visitcode=#{$theClari[:visit]}")
+    afile.puts("authorid=#{$theClari[:author]}")
+    afile.puts("correlationid=#{$theClari[:correlationid]}")
+    afile.puts("lastName=#{$theClari[:lastname]}")
+    afile.puts("firstName=#{$theClari[:firstname]}")
+    afile.puts("dateOfBirth=#{$theClari[:dateofbirth]}")
+    afile.puts("gender=#{$theClari[:gender]}")
+    afile.puts("visitStart=#{$theClari[:visitstart]}")
+    afile.puts("isDiscard=#{$theClari[:discard]}")
+    afile.puts("isPOR=#{$theClari[:por]}")
+    afile.puts("<p:ResolvedDqrClarifications xmlns:p=\"http://www.nuance.com/clu/capd/clarifications/document/dqr/resolved\" xsi:schemaLocation=\"http://www.nuance.com/clu/capd/clarifications/document/dqr/resolved ../../../../clu-capd-model-clarification/src/main/schema/resolved-capd-clarifications-document-dqr.xsd \" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">")
+    afile.puts("<  EncounterId>#{$theClari[:visit]}</EncounterId>")
+    afile.puts("<  ResolvedClarification>")
+    afile.puts("    <Document>")
+    afile.puts("      <Id>#{$theClari[:docid]}</Id>")
+    afile.puts("    </Document>")
+    afile.puts("    <Family>#{$theClari[:family]}</Family>")
+    afile.puts("    <Kind>#{$theClari[:kind]}</Kind>")
+    afile.puts("    <ReviewerResponse>#{params["response"]}</ReviewerResponse>")
+    afile.puts("   </ResolvedClarification>")
+    afile.puts("  </p:ResolvedDqrClarifications>")
+    afile.close
+    erb:showclarisDQR
 end
 
 post '/shownextfileDQR' do

@@ -4,19 +4,35 @@ aForm = <<-eos
 <html>
 <head> <title>Files</title> 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head> 
+<body> <div> <table>
 
+<tr><th> PATH </th> <td> <input type = "text" name = "path" value ="#{$thePath}" size = "150"/> </td> </tr>
+<tr><th> MRN </th> <td> <input type = "text" value ="#{$theClari[:mrn]}" size = "25"/> </td> </tr>
+<tr><th> VISIT </th> <td> <input type = "text" value ="#{$theClari[:visit]}" size = "25"/> </td></tr>
+<tr><th> AUTHOR </th> <td> <input type = "text" value ="#{$theClari[:author]}" size = "25"/> </td></tr>
+<tr><th> CORRELATONID </th> <td> <input type = "text" value ="#{$theClari[:correlationid]}" size = "25"/> </td></tr>
+<tr><th> LASTNAME </th> <td> <input type = "text" value ="#{$theClari[:lastname]}" size = "25"/> </td></tr>
+<tr><th> FIRSTNAME </th> <td> <input type = "text" value ="#{$theClari[:firstname]}" size = "25"/> </td></tr>
+<tr><th> DOB </th> <td> <input type = "text" value ="#{$theClari[:dateofbirth]}" size = "25"/> </td></tr>
+<tr><th> GENDER </th> <td> <input type = "text" value ="#{$theClari[:gender]}" size = "25"/> </td></tr>
+<tr><th> VISITSTART </th> <td> <input type = "text" value ="#{$theClari[:visitstart]}" size = "25"/> </td></tr>
+<tr><th> DISCARD </th> <td> <input type = "text" value ="#{$theClari[:discard]}" size = "25"/> </td></tr>
+<tr><th> POR </th> <td> <input type = "text" value ="#{$theClari[:por]}" size = "25"/> </td></tr>
 
-</head> <body> <div> <table>
-
-<tr>
-<th> MRN </th> <td> <input type = "text" value =$theClari[:mrn] /> </td>
-
+<tr><th> DOCID </th> <td> <input type = "text" value ="#{$theClari[:docid]}" size = "25"/> </td></tr>
+<tr><th> FAMILY </th> <td> <input type = "text" value ="#{$theClari[:family]}" size = "25"/> </td></tr>
+<tr><th> KIND </th> <td> <input type = "text" value ="#{$theClari[:kind]}" size = "25"/> </td></tr>
+<tr><th> RESPONSE </th> <td><input type="radio" name="response" value="AGREE">Agree<br></td></tr>
+tr><th>      </th><td><input type="radio" name="response" value="ASK_ME_LATER">Ask Me Later<br></td></tr>
+tr><th>      </th><td><input type="radio" name="response" value="DOES_NOT_APPLY">Does Not Apply<br></td></tr>
 </tr>
+
 </table></div>
 
-<input type = "submit" name="gobutton" value="Submit" formaction = "/submitresponseDQR"/> 
+<input type = "submit" name="gobutton" value="Submit" formaction = "/createresponsefileDQR"/> 
 
-</body> </form> </html>
+</body> </html> </form> 
 eos
 return aForm
 %>
