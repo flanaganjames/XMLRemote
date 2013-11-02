@@ -16,7 +16,21 @@ end
 
 get '/dqr' do
     #FileUtils.rm_rf(Dir.glob('uploads/*'))
-    erb:choosefileDQR
+    erb:chooseinputoutputDQR
+end
+
+post '/dqr' do
+    #FileUtils.rm_rf(Dir.glob('uploads/*'))
+    erb:chooseinputoutputDQR
+end
+
+post '/outputDQR' do
+    erb:chooseoutputfileDQR
+end
+
+post '/inputDQR' do
+    $visitadd= ""
+    erb:chooseinputfileDQR
 end
 
 post '/showfirstfileNUA' do
@@ -212,7 +226,7 @@ post '/showfirstfileDQR' do
         $thetempfiles << file[:tempfile].read
     }
     $currentfile = 0
-    $thePath = ""
+    $thePath = "/Users/jamesflanagan/Documents/RubyRelated/RubyProjects/XMLRemote"
     $thefile = $thefiles[$currentfile]
     aString = $thetempfiles[$currentfile]
     doc = REXML::Document.new aString
@@ -256,9 +270,187 @@ post '/showfirstfileDQR' do
     erb:showclarisDQR
 end
 
+post '/showfirsttestfileDQR' do
+    #pp params
+    $thefiles = []
+    $thetempfiles = []
+    params["chosenfiles"].each {|file|
+        #pp file
+        $thefiles << file[:filename]
+        $thetempfiles << file[:tempfile].read
+    }
+    $currentfile = 0
+    $thePath = "/Users/jamesflanagan/Documents/RubyRelated/RubyProjects/XMLRemote"
+    #$afile = $thefiles[$currentfile]
+    aString = StringIO.new(string=$thetempfiles[$currentfile])
+    $rows = aString.readlines.map { |line| line }
+    $theFile = {}
+    $theFile[:docname] = $thefiles[$currentfile]
+    $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
+    mrnstring = $theFile[:mrn]
+    $theFile[:visit] = $rows[1].gsub("visitcode=","")
+    $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
+    $theFile[:visitadd] = $theFile[:setvisitadd].gsub(/_.+_/, "").gsub('_','')
+    if $theFile[:setvisitadd].scan(/_.+_/)[0]
+        $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
+    else
+        $theFile[:setadd] = ""
+    end
+    $theFile[:author] = $rows[2].gsub("authorid=","")
+    $theFile[:correlationid] = $rows[3].gsub("correlationid=","")
+    $theFile[:lastname] = $rows[4].gsub("lastName=","")
+    $theFile[:firstname] = $rows[5].gsub("firstName=","")
+    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","")
+    $theFile[:gender] = $rows[7].gsub("gender=","")
+    $theFile[:visitstart] = $rows[8].gsub("visitStart=","")
+    $theFile[:discard] = $rows[9].gsub("isDiscard=","")
+    $theFile[:por] = $rows[10].gsub("isPOR=","")
+    $theFile[:text] = ""
+    $rows.each_index {|arownumber|
+    $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
+    
+    erb:showtestfileDQR
+end
+
+post '/shownexttestfileDQR' do
+    $currentfile = $currentfile + 1 if $currentfile < $thefiles.size - 1
+    aString = StringIO.new(string=$thetempfiles[$currentfile])
+    $rows = aString.readlines.map { |line| line }
+    $theFile = {}
+    $theFile[:docname] = $thefiles[$currentfile]
+    $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
+    mrnstring = $theFile[:mrn]
+    $theFile[:visit] = $rows[1].gsub("visitcode=","")
+    $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
+    if $visitadd == ""
+        $theFile[:visitadd] = $theFile[:setvisitadd].gsub(/_.+_/, "").gsub('_','')
+        else
+        $theFile[:visitadd] = $visitadd
+    end
+    if $theFile[:setvisitadd].scan(/_.+_/)[0]
+        $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
+        else
+        $theFile[:setadd] = ""
+    end
+    $theFile[:author] = $rows[2].gsub("authorid=","")
+    $theFile[:correlationid] = $rows[3].gsub("correlationid=","")
+    $theFile[:lastname] = $rows[4].gsub("lastName=","")
+    $theFile[:firstname] = $rows[5].gsub("firstName=","")
+    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","")
+    $theFile[:gender] = $rows[7].gsub("gender=","")
+    $theFile[:visitstart] = $rows[8].gsub("visitStart=","")
+    $theFile[:discard] = $rows[9].gsub("isDiscard=","")
+    $theFile[:por] = $rows[10].gsub("isPOR=","")
+    $theFile[:text] = ""
+    $rows.each_index {|arownumber|
+        $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
+    
+    erb:showtestfileDQR
+end
+
+post '/showprevtestfileDQR' do
+    $currentfile = $currentfile - 1 if $currentfile > 0
+    aString = StringIO.new(string=$thetempfiles[$currentfile])
+    $rows = aString.readlines.map { |line| line }
+    $theFile = {}
+    $theFile[:docname] = $thefiles[$currentfile]
+    $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
+    mrnstring = $theFile[:mrn]
+    $theFile[:visit] = $rows[1].gsub("visitcode=","")
+    $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
+    if $visitadd == ""
+        $theFile[:visitadd] = $theFile[:setvisitadd].gsub(/_.+_/, "").gsub('_','')
+    else
+        $theFile[:visitadd] = $visitadd
+    end
+    if $theFile[:setvisitadd].scan(/_.+_/)[0]
+        $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
+        else
+        $theFile[:setadd] = ""
+    end
+    $theFile[:author] = $rows[2].gsub("authorid=","")
+    $theFile[:correlationid] = $rows[3].gsub("correlationid=","")
+    $theFile[:lastname] = $rows[4].gsub("lastName=","")
+    $theFile[:firstname] = $rows[5].gsub("firstName=","")
+    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","")
+    $theFile[:gender] = $rows[7].gsub("gender=","")
+    $theFile[:visitstart] = $rows[8].gsub("visitStart=","")
+    $theFile[:discard] = $rows[9].gsub("isDiscard=","")
+    $theFile[:por] = $rows[10].gsub("isPOR=","")
+    $theFile[:text] = ""
+    $rows.each_index {|arownumber|
+        $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
+    
+    erb:showtestfileDQR
+end
+
+
 post '/chooseresponseDQR' do
     $theClari = $claris[params["clarification"].to_i]
     erb:chooseresponseDQR
+end
+
+post '/createtestfileDQR' do
+    $theFile[:visitadd] = params["visitadd"]
+    $visitadd = params["visitadd"]
+    $thePath = params["path"]
+    $theMod = params["mod"]
+    $theVisitAdd = params["visit"]
+    afilename = "#{params["path"]}/inputarchive/#{$theFile[:docname]}.#{$theMod}_capd.txt"
+    
+    afile = File.open(afilename, "w")
+    afile.puts("mrn=#{$theFile[:mrn]}")
+    thefullvisit = "#{$theFile[:mrn]}_#{$theFile[:setadd]}_#{$theFile[:visitadd]}"
+    afile.puts("visitcode=#{thefullvisit}")
+
+    afile.puts("authorid=#{$theFile[:author]}")
+    afile.puts("correlationid=#{$theFile[:correlationid]}")
+    afile.puts("lastName=#{$theFile[:lastname]}")
+    afile.puts("firstName=#{$theFile[:firstname]}")
+    
+    afile.puts("dateOfBirth=#{$theFile[:dateofbirth]}")
+    afile.puts("gender=#{$theFile[:gender]}")
+    afile.puts("visitStart=#{$theFile[:visitstart]}")
+    afile.puts("isDiscard=#{$theFile[:discard]}")
+    afile.puts("isPOR=#{$theFile[:por]}")   
+    $theFile[:text] = $theFile[:text].gsub(/<EncounterId>.+<\/EncounterId>/, "<EncounterId>#{thefullvisit}<\/EncounterId>")
+    afile.puts("#{$theFile[:text]}")
+    afile.close
+    $currentfile = $currentfile + 1 if $currentfile < $thefiles.size - 1
+    
+    
+    aString = StringIO.new(string=$thetempfiles[$currentfile])
+    $rows = aString.readlines.map { |line| line }
+    $theFile = {}
+    $theFile[:docname] = $thefiles[$currentfile]
+    $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
+    mrnstring = $theFile[:mrn]
+    $theFile[:visit] = $rows[1].gsub("visitcode=","")
+    $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
+    if $visitadd == ""
+        $theFile[:visitadd] = $theFile[:setvisitadd].gsub(/_.+_/, "").gsub('_','')
+        else
+        $theFile[:visitadd] = $visitadd
+    end
+    if $theFile[:setvisitadd].scan(/_.+_/)[0]
+        $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
+        else
+        $theFile[:setadd] = ""
+    end
+    $theFile[:author] = $rows[2].gsub("authorid=","")
+    $theFile[:correlationid] = $rows[3].gsub("correlationid=","")
+    $theFile[:lastname] = $rows[4].gsub("lastName=","")
+    $theFile[:firstname] = $rows[5].gsub("firstName=","")
+    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","")
+    $theFile[:gender] = $rows[7].gsub("gender=","")
+    $theFile[:visitstart] = $rows[8].gsub("visitStart=","")
+    $theFile[:discard] = $rows[9].gsub("isDiscard=","")
+    $theFile[:por] = $rows[10].gsub("isPOR=","")
+    $theFile[:text] = ""
+    $rows.each_index {|arownumber|
+        $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
+    
+    erb:showtestfileDQR
 end
 
 post '/createresponsefileDQR' do
@@ -362,5 +554,5 @@ post '/showchoosefilesNUA' do
 end
 
 post '/showfilesDQR' do
-    erb:choosefileDQR
+    erb:chooseoutputfileDQR
 end

@@ -1,0 +1,47 @@
+<%      
+aForm = <<-eos
+<form  method="post" enctype='multipart/form-data'
+<html>
+<head> <title>Input File</title> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head> 
+<body> 
+
+<input type = "submit" name="return" value = "Next File" formaction = "/shownexttestfileDQR"/>
+<input type = "submit" name="return" value = "Prev File" formaction = "/showprevtestfileDQR"/>
+<input type = "submit" name="return" value = "Return to Choose File" formaction = "/inputDQR"/>
+
+<div> <table>
+
+<tr><th> PATH </th> <td> <input type = "text" name = "path" value ="#{$thePath}" size = "150"/> </td> </tr>
+
+<tr><th> MOD </th> <td> <input type = "text" name = "mod" value ="#{$theMod}" size = "25"/> </td> </tr>
+<tr><th> FILE </th> <td> <input type = "text" name = "docname" value ="#{$theFile[:docname]}" size = "50"/> </td> </tr>
+<tr><th> MRN </th> <td> <input type = "text" value ="#{$theFile[:mrn]}" size = "25"/> </td> </tr>
+<tr><th> SET_ADD </th> <td> <input type = "text" name = "setadd" value ="#{$theFile[:setadd]}" size = "25"/> </td></tr>
+<tr><th> VISIT_ADD </th> <td> <input type = "text" name = "visitadd" value ="#{$theFile[:visitadd]}" size = "25"/> </td></tr>
+<tr><th> AUTHOR </th> <td> <input type = "text" value ="#{$theFile[:author]}" size = "25"/> </td></tr>
+<tr><th> CORRELATONID </th> <td> <input type = "text" value ="#{$theFile[:correlationid]}" size = "25"/> </td></tr>
+<tr><th> LASTNAME </th> <td> <input type = "text" value ="#{$theFile[:lastname]}" size = "25"/> </td></tr>
+<tr><th> FIRSTNAME </th> <td> <input type = "text" value ="#{$theFile[:firstname]}" size = "25"/> </td></tr>
+<tr><th> DOB </th> <td> <input type = "text" value ="#{$theFile[:dateofbirth]}" size = "25"/> </td></tr>
+<tr><th> GENDER </th> <td> <input type = "text" value ="#{$theFile[:gender]}" size = "25"/> </td></tr>
+<tr><th> VISITSTART </th> <td> <input type = "text" value ="#{$theFile[:visitstart]}" size = "25"/> </td></tr>
+<tr><th> DISCARD </th> <td> <input type = "text" value ="#{$theFile[:discard]}" size = "25"/> </td></tr>
+<tr><th> POR </th> <td> <input type = "text" value ="#{$theFile[:por]}" size = "25"/> </td></tr>
+<tr><th> TEXT </th> <td> <input type = "text" value ="#{$theFile[:text]}" size = "150"/> </td></tr>
+
+
+</table></div>
+
+<input type = "submit" name="gobutton" value="Submit" formaction = "/createtestfileDQR"/> 
+
+</body> </html> </form> 
+eos
+return aForm
+%>
+ 
+ 
+
+ 
+ 

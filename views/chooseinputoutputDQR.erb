@@ -1,0 +1,29 @@
+<%      
+aForm = <<-eos
+<form  method="post" enctype='multipart/form-data'
+<html>
+<head> <title>Input vs Output</title> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+</head> <body> <div> <table>
+<th> Create Input Set ?</th>  <th> Review Output Set ?</th>
+
+<tr>
+
+<td> <input type = "submit" id = "bob" style= "font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: lightgray; border: 3pt ridge lightgrey" name="inputbutton"  value="Input" formaction = "/inputDQR"/> </td> 
+
+<td> <input type = "submit" id = "bob" style= "font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: lightgray; border: 3pt ridge lightgrey" name="outputbutton"  value="Output" formaction = "/outputDQR"/> </td> 
+
+
+</tr>
+</table></div>
+</body> </form> </html>
+eos
+return aForm
+%>
+ 
+ 
+
+ 
+ 

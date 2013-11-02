@@ -31,5 +31,6 @@ RESULTS
 SGOT is High. SGOT 100. Bilirubin 4.0 Bilirubin elevated. LFTs otherwise normal.
 ASSESSMENT
 The patient has profound confusion, altered mental status.  Hepatic cirrhosis.
+The following evidence suggests hepatic encephalopathy: altered mental status, cirrhosis, elevated bilirubin, and treatment with lactulose.
 PLAN
-Admit patient for evaluation and management of these problems. Resume Rifaximin and lactulose.
+Admit patient for evaluation and management of these problems.  Resume Rifaximin and lactulose.

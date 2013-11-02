@@ -9,14 +9,14 @@ aForm = <<-eos
 
 <input type = "submit" name="return" value = "Next File" formaction = "/shownextfileDQR"/>
 <input type = "submit" name="return" value = "Prev File" formaction = "/showprevfileDQR"/>
-<input type = "submit" name="return" value = "Return to Choose File" formaction = "/showfilesDQR"/>
+<input type = "submit" name="return" value = "Return to Choose File" formaction = "/outputDQR"/>
 
 <div> <table>
 <td>Clarifications for:</td> <th> #{$thefile} </th>
 </table> </div>
 <div> <table> 
  
-<th>Family</th> <th>Kind</th><th>Confidence</th><th>Evidence</th><th>MRN</th><th>Visit</th>
+<th>Family</th> <th>Kind</th><th>Confidence</th><th>Evidence</th><th>MRN</th><th>Visit</th><th>Respond</th>
 eos
 
 $claris.each_index {|i| aclari = $claris[i]
@@ -34,7 +34,7 @@ aForm = aForm + <<-eos
 <td> <input type = "text" name = "clari#{i}" value ="#{aclari[:mrn]}" size = "10"</td>
 <td> <input type = "text" name = "clari#{i}" value ="#{aclari[:visit]}" size = "20"</td>
 #{button}
-</tr>"
+</tr>
 eos
 }
 aForm = aForm + <<-eos

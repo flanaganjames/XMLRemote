@@ -2,12 +2,16 @@
 aForm = <<-eos
 <form  method="post" enctype='multipart/form-data'
 <html>
-<head> <title>Files</title> 
+<head> <title>Output Files</title> 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
-</head> <body> <div> <table>
+</head> <body> <div> 
 
+<input type = "submit" value="Return" formaction = "/dqr"/>
+
+<table>
+<th> You are choosing output files to examine clarifications and provide response input sets</th>
 <tr>
 <td> <input type = "file" id="dave" name="chosenfiles[]" value ="Choose File" multiple = "multiple"/> </td>
 <td> <input type = "submit" id = "bob" style= "font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: lightgray; border: 3pt ridge lightgrey" name="gobutton" id="sam" value="Clarifications" formaction = "/showfirstfileDQR"/> </td> 

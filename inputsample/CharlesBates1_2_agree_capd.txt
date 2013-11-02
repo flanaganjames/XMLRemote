@@ -1,22 +1,23 @@
-mrn=12345001
-visitcode=12345001_1_0111
+﻿mrn=12340003
+visitcode=3016
 authorid=JRF
 correlationid=
-lastName=Test
-firstName=UAT
-dateOfBirth=1938-01-31
+lastName=Bates
+firstName=Charles
+dateOfBirth=1950-01-31
 gender=M
 visitStart=2012-01-31 01:02:03
 isDiscard=false
 isPOR=true
 <p:ResolvedDqrClarifications xmlns:p="http://www.nuance.com/clu/capd/clarifications/document/dqr/resolved" xsi:schemaLocation="http://www.nuance.com/clu/capd/clarifications/document/dqr/resolved ../../../../clu-capd-model-clarification/src/main/schema/resolved-capd-clarifications-document-dqr.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <EncounterId>12345001_0111</EncounterId>
+  <EncounterId>3016</EncounterId>
   <ResolvedClarification>
     <Document>
-      <Id>1_1_Keep1_1stvisit_capd.txt</Id>
+      <Id>CharlesBates1_1_capd.txt</Id>
     </Document>
     <Family>ENCEPHALOPATHY</Family>
     <Kind>HEPATIC ENCEPHALOPATHY</Kind>
     <ReviewerResponse>AGREE</ReviewerResponse>
   </ResolvedClarification>
 </p:ResolvedDqrClarifications>
+

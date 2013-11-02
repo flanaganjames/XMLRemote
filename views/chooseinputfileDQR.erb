@@ -1,0 +1,32 @@
+<%      
+aForm = <<-eos
+<form  method="post" enctype='multipart/form-data'
+<html>
+<head> <title>Input Files</title> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+</head> <body> <div> 
+
+<input type = "submit" value="Return" formaction = "/dqr"/>
+
+<table>
+<th> You are choosing input files to create an input test set</th>
+<tr>
+<td> <input type = "file" id="dave" name="chosenfiles[]" value ="Choose File" multiple = "multiple"/> </td>
+<td> <input type = "submit" id = "bob" style= "font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: lightgray; border: 3pt ridge lightgrey" name="gobutton" id="sam" value="Files" formaction = "/showfirsttestfileDQR"/> </td> 
+
+
+
+
+</tr>
+</table></div>
+</body> </form> </html>
+eos
+return aForm
+%>
+ 
+ 
+
+ 
+ 
