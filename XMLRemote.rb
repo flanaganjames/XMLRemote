@@ -226,7 +226,8 @@ post '/showfirstfileDQR' do
         $thetempfiles << file[:tempfile].read
     }
     $currentfile = 0
-    $thePath = "/Users/jamesflanagan/Documents/RubyRelated/RubyProjects/XMLRemote"
+    #$thePath = "/Users/jamesflanagan/Documents/RubyRelated/RubyProjects/XMLRemote"
+    $thePath = ""
     $thefile = $thefiles[$currentfile]
     aString = $thetempfiles[$currentfile]
     doc = REXML::Document.new aString
@@ -280,7 +281,8 @@ post '/showfirsttestfileDQR' do
         $thetempfiles << file[:tempfile].read
     }
     $currentfile = 0
-    $thePath = "/Users/jamesflanagan/Documents/RubyRelated/RubyProjects/XMLRemote"
+    #$thePath = "/Users/jamesflanagan/Documents/RubyRelated/RubyProjects/XMLRemote"
+    $thePath = ""
     #$afile = $thefiles[$currentfile]
     aString = StringIO.new(string=$thetempfiles[$currentfile])
     $rows = aString.readlines.map { |line| line }
@@ -393,10 +395,10 @@ end
 post '/createtestfileDQR' do
     $theFile[:visitadd] = params["visitadd"]
     $visitadd = params["visitadd"]
-    $thePath = params["path"]
-    $theMod = params["mod"]
-    $theVisitAdd = params["visit"]
-    afilename = "#{params["path"]}/inputarchive/#{$theFile[:docname]}.#{$theMod}_capd.txt"
+    #$thePath = params["path"]
+    #$theMod = params["mod"]
+    #$theVisitAdd = params["visit"]
+    afilename = "./inputarchive/#{$theFile[:docname]}.#{$theMod}_capd.txt"
     
     afile = File.open(afilename, "w")
     afile.puts("mrn=#{$theFile[:mrn]}")
@@ -416,9 +418,9 @@ post '/createtestfileDQR' do
     $theFile[:text] = $theFile[:text].gsub(/<EncounterId>.+<\/EncounterId>/, "<EncounterId>#{thefullvisit}<\/EncounterId>")
     afile.puts("#{$theFile[:text]}")
     afile.close
+    send_file(afilename, :disposition => 'attachment')
+    
     $currentfile = $currentfile + 1 if $currentfile < $thefiles.size - 1
-    
-    
     aString = StringIO.new(string=$thetempfiles[$currentfile])
     $rows = aString.readlines.map { |line| line }
     $theFile = {}
@@ -454,7 +456,7 @@ post '/createtestfileDQR' do
 end
 
 post '/createresponsefileDQR' do
-    $thePath = params["path"]
+    #$thePath = params["path"]
     afilename = "#{params["path"]}/inputarchive/#{$theClari[:docid]}.#{params["response"]}_capd.txt"
     afile = File.open(afilename, "w")
     afile.puts("mrn=#{$theClari[:mrn]}")
