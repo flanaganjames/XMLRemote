@@ -1,5 +1,5 @@
 mrn=12345001
-visitcode=12345001_1_0002
+visitcode=12345001_1_0007
 authorid=JRF
 correlationid=
 lastName=Test

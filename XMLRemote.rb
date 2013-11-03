@@ -395,40 +395,38 @@ end
 post '/createtestfilesDQR' do
     $visitadd = params["visitadd"]
     $createdfiles = []
-    #$thePath = params["path"]
-    #$theMod = params["mod"]
-    #$theVisitAdd = params["visit"]
-    while $currentfile < $thefiles.size
-    {
-    getcurrentfile
-    afilename = "./inputarchive/#{$theFile[:docname]}.#{$theMod}_capd.txt"
-    $createdfiles << afilename
-    afile = File.open(afilename, "w")
-    afile.puts("mrn=#{$theFile[:mrn]}")
-    thefullvisit = "#{$theFile[:mrn]}_#{$theFile[:setadd]}_#{$visitadd]}"
-    afile.puts("visitcode=#{thefullvisit}")
-
-    afile.puts("authorid=#{$theFile[:author]}")
-    afile.puts("correlationid=#{$theFile[:correlationid]}")
-    afile.puts("lastName=#{$theFile[:lastname]}")
-    afile.puts("firstName=#{$theFile[:firstname]}")
-    
-    afile.puts("dateOfBirth=#{$theFile[:dateofbirth]}")
-    afile.puts("gender=#{$theFile[:gender]}")
-    afile.puts("visitStart=#{$theFile[:visitstart]}")
-    afile.puts("isDiscard=#{$theFile[:discard]}")
-    afile.puts("isPOR=#{$theFile[:por]}")   
-    $theFile[:text] = $theFile[:text].gsub(/<EncounterId>.+<\/EncounterId>/, "<EncounterId>#{thefullvisit}<\/EncounterId>")
-    afile.puts("#{$theFile[:text]}")
-    afile.close
-    send_file(afilename, :disposition => 'attachment')
-    $currentfile = $currentfile + 1
-    }
+    $theMod = params["mod"]
+    while $currentfile < $thefiles.size do
+        getcurrentfile
+        afilename = "./inputarchive/#{$theFile[:docname]}.#{$theMod}_capd.txt"
+        $createdfiles << afilename
+        afile = File.open(afilename, "w")
+        afile.puts("mrn=#{$theFile[:mrn]}")
+     
+        thefullvisit = "#{$theFile[:mrn]}_#{$theFile[:setadd]}_#{$visitadd}"
+        
+        afile.puts("visitcode=#{thefullvisit}")
+        afile.puts("authorid=#{$theFile[:author]}")
+        afile.puts("correlationid=#{$theFile[:correlationid]}")
+        afile.puts("lastName=#{$theFile[:lastname]}")
+        afile.puts("firstName=#{$theFile[:firstname]}")
+        
+        afile.puts("dateOfBirth=#{$theFile[:dateofbirth]}")
+        afile.puts("gender=#{$theFile[:gender]}")
+        afile.puts("visitStart=#{$theFile[:visitstart]}")
+        afile.puts("isDiscard=#{$theFile[:discard]}")
+        afile.puts("isPOR=#{$theFile[:por]}")
+        $theFile[:text] = $theFile[:text].gsub(/<EncounterId>.+<\/EncounterId>/, "<EncounterId>#{thefullvisit}<\/EncounterId>")
+        afile.puts("#{$theFile[:text]}")
+        afile.close
+        #send_file(afilename, :disposition => 'attachment')
+        $currentfile = $currentfile + 1
+    end
     erb:showfinaltestfileDQR
 end
 
 post '/downloads' do
-    $createfles.each {|afilename| send_file(afilename, :disposition => 'attachment')}
+    $createdfiles.each {|afilename| send_file(afilename, :disposition => 'attachment')}
 end
 
 def getcurrentfile

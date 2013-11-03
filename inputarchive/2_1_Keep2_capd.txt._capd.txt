@@ -1,0 +1,35 @@
+mrn=12345001
+visitcode=12345001_1_0007
+authorid=JRF
+correlationid=
+lastName=Test
+firstName=UAT
+dateOfBirth=1938-01-31
+gender=M
+visitStart=2012-01-31 01:02:03
+isDiscard=false
+isPOR=true
+
+ADMITTING HISTORY AND PHYSICAL
+CHIEF COMPLAINT
+The patient presents today with confusion and disorientation and shortness of breath.
+HISTORY OF PRESENT ILLNESS
+Symptoms began about 2 days ago , noted while the patient was visiting his daughter’s family. He has not taken his meds for 4 days.
+REVIEW OF SYSTEMS
+He complains about a slight headache. He has orthostatic dizziness. Otherwise negative.
+PAST MEDICAL HISTORY
+There is a history of hypertension and hepatic cirrhosis 
+MEDICATIONS
+Unknown
+ALLERGIES
+No Known Allergies
+SOCIAL HISTORY
+The patient denies smoking but admits to a long history of drinking alcohol.
+PHYSICAL EXAM
+Vital signs demonstrate a heart rate at 110, systolic BP at 160, diastolic BP at 85.  The patient is oriented to name and place but not date.  He is tremulous. The exam is otherwise normal with the exception of narrowing of arteries on fundoscopic exam. 
+RESULTS
+Pending. 
+ASSESSMENT
+The patient has profound confusion, altered mental status. Hepatic cirrhosis.
+PLAN
+Admit for evaluation.
