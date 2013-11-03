@@ -5,9 +5,11 @@ aForm = <<-eos
 <head> <title>Files</title> 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head> 
-<body> <div> <table>
+<body> 
+<input type = "submit" name="return" value = "Return to Choose File" formaction = "/outputDQR"/>
 
-<tr><th> PATH </th> <td> <input type = "text" name = "path" value ="#{$thePath}" size = "150"/> </td> </tr>
+<div> <table>
+
 <tr><th> MRN </th> <td> <input type = "text" value ="#{$theClari[:mrn]}" size = "25"/> </td> </tr>
 <tr><th> VISIT </th> <td> <input type = "text" value ="#{$theClari[:visit]}" size = "25"/> </td></tr>
 <tr><th> AUTHOR </th> <td> <input type = "text" value ="#{$theClari[:author]}" size = "25"/> </td></tr>

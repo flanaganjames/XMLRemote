@@ -1,0 +1,22 @@
+mrn=12340009
+visitcode=12340009__0111
+authorid=JRF
+correlationid=
+lastName=Douglas
+firstName=Ray
+dateOfBirth=1938-01-31
+gender=M
+visitStart=2012-01-31 01:02:03
+isDiscard=false
+isPOR=true
+xmlns:p="http://www.nuance.com/clu/capd/clarifications/document/dqr/resolved" xsi:schemaLocation="http://www.nuance.com/clu/capd/clarifications/document/dqr/resolved ../../../../clu-capd-model-clarification/src/main/schema/resolved-capd-clarifications-document-dqr.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EncounterId>12340009__0111</EncounterId>
+  <ResolvedClarification>
+    <Document>
+      <Id>RayDouglas1_1_capd.txt</Id>
+    </Document>
+    <Family>HEART FAILURE</Family>
+    <Kind>ACUTE ON CHRONIC SYSTOLIC HEART FAILURE</Kind>
+    <ReviewerResponse>AGREE</ReviewerResponse>
+  </ResolvedClarification>
+</p:ResolvedDqrClarifications>

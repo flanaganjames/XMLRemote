@@ -226,8 +226,7 @@ post '/showfirstfileDQR' do
         $thetempfiles << file[:tempfile].read
     }
     $currentfile = 0
-    #$thePath = "/Users/jamesflanagan/Documents/RubyRelated/RubyProjects/XMLRemote"
-    $thePath = ""
+    
     $thefile = $thefiles[$currentfile]
     aString = $thetempfiles[$currentfile]
     doc = REXML::Document.new aString
@@ -272,18 +271,15 @@ post '/showfirstfileDQR' do
 end
 
 post '/showfirsttestfileDQR' do
-    #pp params
+
     $thefiles = []
     $thetempfiles = []
     params["chosenfiles"].each {|file|
-        #pp file
+
         $thefiles << file[:filename]
         $thetempfiles << file[:tempfile].read
     }
     $currentfile = 0
-    #$thePath = "/Users/jamesflanagan/Documents/RubyRelated/RubyProjects/XMLRemote"
-    $thePath = ""
-    #$afile = $thefiles[$currentfile]
     aString = StringIO.new(string=$thetempfiles[$currentfile])
     $rows = aString.readlines.map { |line| line }
     $theFile = {}
@@ -458,8 +454,7 @@ def getcurrentfile
 end
 
 post '/createresponsefileDQR' do
-    #$thePath = params["path"]
-    afilename = "#{params["path"]}/inputarchive/#{$theClari[:docid]}.#{params["response"]}_capd.txt"
+    afilename = "./inputarchive/#{$theClari[:docid]}.#{params["response"]}_capd.txt"
     afile = File.open(afilename, "w")
     afile.puts("mrn=#{$theClari[:mrn]}")
     afile.puts("visitcode=#{$theClari[:visit]}")

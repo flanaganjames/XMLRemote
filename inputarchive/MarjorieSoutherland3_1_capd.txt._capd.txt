@@ -1,0 +1,26 @@
+mrn=12340005
+visitcode=12340005__0111
+authorid=JRF
+correlationid=
+lastName=Southerland
+firstName=Marjorie
+dateOfBirth=1928-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+isDiscard=false
+isPOR=true
+
+PROGRESS NOTE DAY 3
+IDENTIFICATION
+84 yo female with MRSA pneumonia treated with Vancomycin and levaquin.
+HISTORY OF PRESENT ILLNESS
+The dyspnea is markedly increased today.
+PHYSICAL EXAMINATION
+Respiratory rate 30, Pulse 120, Blood Pressure 110/80, Temperature 37.5, O2 sat 80% on a non-rebreather mask.  Accessory muscles of breathing in use.
+RESULTS
+CXR shows bilateral infiltrates.
+ASSESSMENT
+Health care facility associated pneumonia with acute respiratory insufficiency.
+PLAN
+Transfer to ICU for NPPV
+

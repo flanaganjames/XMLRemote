@@ -1,0 +1,38 @@
+mrn=﻿12340003
+visitcode=﻿12340003__0111
+authorid=JRF
+correlationid=
+lastName=Bates
+firstName=Charles
+dateOfBirth=1950-01-31
+gender=M
+visitStart=2012-01-31 01:02:03
+isDiscard=false
+isPOR=true
+
+ADMITTING HISTORY AND PHYSICAL
+CHIEF COMPLAINT
+The patient presents today with confusion and disorientation and shortness of breath.
+HISTORY OF PRESENT ILLNESS
+Symptoms began about 2 days ago , noted while the patient was visiting his daughter’s family.  He quit drinking alcohol 4 days ago when he arrived at his daughter’s house.  He has not taken his meds for 4 days.
+REVIEW OF SYSTEMS
+He complains about a slight headache. He has orthostatic dizziness. Otherwise negative.
+PAST MEDICAL HISTORY
+There is a history of hypertension and hepatic cirrhosis as well as alcoholism.
+MEDICATIONS
+Lactulose and Rifaximin.
+ALLERGIES
+No Known Allergies
+SOCIAL HISTORY
+The patient denies smoking but admits to a long history of drinking alcohol.
+PHYSICAL EXAM
+Vital signs demonstrate a heart rate at 110, systolic BP at 210, diastolic BP at 105.  The patient is oriented to name and place but not date.  He is tremulous. The exam is otherwise normal with the exception of narrowing of arteries on fundoscopic exam.  Abdomen is protruding with a fluid wave but not tense nor tender. His stool is guaiac positive.
+RESULTS
+CBC significant for a Hemoglobin of 8.5, hematocrit correspondingly low and otherwise normal.  SGOT is elevated and bilirubin is elevated.
+ASSESSMENT
+The patient has hepatic cirrhosis, profound anemia, confusion, altered mental status.
+The diagnosis of hepatic encephalopathy is consistent with the following evidence: alrtered mental status, SGOT elevated, history of cirrhosis.
+The diagnosis of acute blood loss anemia is consistent with the following evidence: hemoglobin very low and need for blood transfusions.
+PLAN
+The patient was transfused with PRBCs in the emergency room. Admit patient for evaluation and management of these problems.  EEG and endoscopy scheduled to evaluate.  Resume Rifaximin and lactulose.
+
