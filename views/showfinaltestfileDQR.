@@ -10,6 +10,7 @@ aForm = <<-eos
 <input type = "submit" name="return" value = "Next File" formaction = "/shownexttestfileDQR"/>
 <input type = "submit" name="return" value = "Prev File" formaction = "/showprevtestfileDQR"/>
 <input type = "submit" name="return" value = "Return to Choose File" formaction = "/inputDQR"/>
+<input type = "submit" name="return" value = "Download Created Files" formaction = "/downloads"/>
 
 <div> <table>
 

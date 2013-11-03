@@ -392,17 +392,20 @@ post '/chooseresponseDQR' do
     erb:chooseresponseDQR
 end
 
-post '/createtestfileDQR' do
-    $theFile[:visitadd] = params["visitadd"]
+post '/createtestfilesDQR' do
     $visitadd = params["visitadd"]
+    $createdfiles = []
     #$thePath = params["path"]
     #$theMod = params["mod"]
     #$theVisitAdd = params["visit"]
+    while $currentfile < $thefiles.size
+    {
+    getcurrentfile
     afilename = "./inputarchive/#{$theFile[:docname]}.#{$theMod}_capd.txt"
-    
+    $createdfiles << afilename
     afile = File.open(afilename, "w")
     afile.puts("mrn=#{$theFile[:mrn]}")
-    thefullvisit = "#{$theFile[:mrn]}_#{$theFile[:setadd]}_#{$theFile[:visitadd]}"
+    thefullvisit = "#{$theFile[:mrn]}_#{$theFile[:setadd]}_#{$visitadd]}"
     afile.puts("visitcode=#{thefullvisit}")
 
     afile.puts("authorid=#{$theFile[:author]}")
@@ -419,8 +422,16 @@ post '/createtestfileDQR' do
     afile.puts("#{$theFile[:text]}")
     afile.close
     send_file(afilename, :disposition => 'attachment')
-    
-    $currentfile = $currentfile + 1 if $currentfile < $thefiles.size - 1
+    $currentfile = $currentfile + 1
+    }
+    erb:showfinaltestfileDQR
+end
+
+post '/downloads' do
+    $createfles.each {|afilename| send_file(afilename, :disposition => 'attachment')}
+end
+
+def getcurrentfile
     aString = StringIO.new(string=$thetempfiles[$currentfile])
     $rows = aString.readlines.map { |line| line }
     $theFile = {}
@@ -429,11 +440,6 @@ post '/createtestfileDQR' do
     mrnstring = $theFile[:mrn]
     $theFile[:visit] = $rows[1].gsub("visitcode=","")
     $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
-    if $visitadd == ""
-        $theFile[:visitadd] = $theFile[:setvisitadd].gsub(/_.+_/, "").gsub('_','')
-        else
-        $theFile[:visitadd] = $visitadd
-    end
     if $theFile[:setvisitadd].scan(/_.+_/)[0]
         $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
         else
@@ -451,8 +457,6 @@ post '/createtestfileDQR' do
     $theFile[:text] = ""
     $rows.each_index {|arownumber|
         $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
-    
-    erb:showtestfileDQR
 end
 
 post '/createresponsefileDQR' do
