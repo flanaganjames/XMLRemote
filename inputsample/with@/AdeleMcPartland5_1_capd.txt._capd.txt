@@ -1,0 +1,25 @@
+mrn=22340000
+visitcode=22340000@@0001
+authorid=JRF
+correlationid=
+lastName=McPartland
+firstName=Adele
+dateOfBirth=1928-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+isDiscard=false
+isPOR=true
+
+IDENTIFICATION
+84 yo female with MRSA pneumonia treated with Vancomycin.
+SUBJECTIVE
+The dyspnea is markedly increased today.
+PHYSICAL EXAMINATION
+Respiratory rate 30, Pulse 120, Blood Pressure 110/80, Temperature 37.5, O2 sat 80% on a non-rebreather mask.  Accessory muscles of breathing in use.
+RESULTS
+CXR shows bilateral infiltrates.
+ASSESSMENT
+Pneumonia patient with acute respiratory insufficiency.
+PLAN
+Transfer to ICU for NPPV
+

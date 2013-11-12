@@ -1,0 +1,33 @@
+mrn=12340005
+visitcode=12340005@@0002
+authorid=JRF
+correlationid=
+lastName=Southerland
+firstName=Marjorie
+dateOfBirth=1928-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+isDiscard=false
+isPOR=true
+
+
+HISTORY AND PHYSICAL
+
+CHIEF COMPLAINT:
+84 year old female with dyspnea.
+HISTORY OF PRESENT ILLNESS
+This is a nursing home resident who presented to the Emergency Department with a 2 day history of increasing dyspnea, fever, and cough producing yellow sputum.
+PMH
+Nasal colonization with MRSA
+PHYSICAL EXAMINATION
+VSS except for temperature of 38.5.  Bilateral wheezing and egophany.
+RESULTS
+CXR shows bilateral infiltrates
+ASSESSMENT
+Probable health care facility associated pneumonia
+PLAN
+We will start Vancomycin after sputum and blood cultures completed.
+CLARIFICATIONS
+The diagnosis of MRSA Pneumonia is supported by the following evidence: cough, sputum, pneumonia, temperature high, abnormal chest x-ray, antibiotics prescribed, and nursing home environment.
+
+

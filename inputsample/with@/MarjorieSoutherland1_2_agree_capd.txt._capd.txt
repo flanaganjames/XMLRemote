@@ -1,0 +1,23 @@
+mrn=12340005
+visitcode=12340005@@0001
+authorid=JRF
+correlationid=
+lastName=Southerland
+firstName=Marjorie
+dateOfBirth=1928-01-31
+gender=F
+visitStart=2012-01-31 01:02:03
+isDiscard=false
+isPOR=true
+xmlns:p="http://www.nuance.com/clu/capd/clarifications/document/dqr/resolved" xsi:schemaLocation="http://www.nuance.com/clu/capd/clarifications/document/dqr/resolved ../../../../clu-capd-model-clarification/src/main/schema/resolved-capd-clarifications-document-dqr.xsd " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EncounterId>12340005@@0001</EncounterId>
+  <ResolvedClarification>
+    <Document>
+      <Id>MarjorieSoutherland1_1_capd.txt</Id>
+    </Document>
+    <Family>PNEUMONIA</Family>
+    <Kind>MRSA PNEUMONIA</Kind>
+    <ReviewerResponse>AGREE</ReviewerResponse>
+  </ResolvedClarification>
+</p:ResolvedDqrClarifications>
+

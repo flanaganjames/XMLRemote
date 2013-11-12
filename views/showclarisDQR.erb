@@ -16,7 +16,7 @@ aForm = <<-eos
 </table> </div>
 <div> <table> 
  
-<th>Family</th> <th>Kind</th><th>Confidence</th><th>Evidence</th><th>MRN</th><th>Visit</th><th>Respond</th>
+<th>Family</th> <th>Kind</th><th>Confidence</th><th>MRN</th><th>Visit</th><th>SystemStatus</th><th>UserStatus</th><th>Evidence</th><th>Respond</th>
 eos
 
 $claris.each_index {|i| aclari = $claris[i]
@@ -27,12 +27,14 @@ else
 end
 aForm = aForm + <<-eos
 <tr>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:family]}" size = "25"</td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:kind]}" size = "35"</td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:confidence]}" size = "6"</td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:documentationText]}" size = "100"</td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:mrn]}" size = "10"</td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:visit]}" size = "20"</td>
+<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:family]}" size = “20”> </td>
+<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:kind]}" size = “20”> </td>
+<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:confidence]}" size = “4”> </td>
+<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:mrn]}" size = “10”> </td>
+<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:visit]}" size = “20”> </td>
+<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:systemstatus]}” size = “10”> </td>
+<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:userstatus]}” size = “10”> </td>
+<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:documentationText]}" size = “50”> </td>
 #{button}
 </tr>
 eos

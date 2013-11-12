@@ -256,12 +256,107 @@ post '/showfirstfileDQR' do
         ahash[:visitstart] = thevisitstart
         ahash[:discard] = thediscard
         ahash[:por] = thepor
-        
         ahash[:docid] = element.elements["Document/Id"].get_text
         ahash[:family] = element.elements["Family"].get_text
         ahash[:kind] = element.elements["Kind"].get_text if element.elements["Kind"]
         ahash[:type] = element.elements["Type"].get_text if element.elements["Type"]
         ahash[:confidence] = element.elements["Confidence"].text.to_i
+        ahash[:userstatus] = element.elements["ClarificationStatus/UserStatus"].get_text
+        ahash[:systemstatus] = element.elements["ClarificationStatus/SystemStatus"].get_text
+        ahash[:documentationText] = element.elements["ClarificationResponse/DocumentationText"].get_text
+        $claris << ahash
+    }
+    #puts "family: #{element.elements["family"]}, kind: #{element.elements["kind"]}, type: #{element.elements["type"]}, confidence: #{element.elements["confidence"]}" }
+    $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
+    erb:showclarisDQR
+end
+
+post '/shownextfileDQR' do
+    $currentfile = $currentfile + 1 if $currentfile < $thefiles.size - 1
+    
+    $thefile = $thefiles[$currentfile]
+    aString = $thetempfiles[$currentfile]
+    doc = REXML::Document.new aString
+    themrn = doc.elements["ns2:DqrClarifications/Person/Id"].get_text
+    thevisit = doc.elements["ns2:DqrClarifications/EncounterId"].get_text
+    theauthor = ""
+    thecorrelationid = ""
+    thelastname = ""
+    thefirstname = ""
+    thedateofbirth =  doc.elements["ns2:DqrClarifications/Person/DOB"].get_text
+    thegender = doc.elements["ns2:DqrClarifications/Person/Gender"].get_text
+    thevisitstart = ""
+    thediscard = ""
+    thepor = ""
+    
+    $claris = []
+    doc.elements.each("ns2:DqrClarifications/Clarification") { |element|
+        ahash = {}
+        ahash[:mrn] = themrn
+        ahash[:visit] = thevisit
+        ahash[:author] = theauthor
+        ahash[:correlationid] = thecorrelationid
+        ahash[:lastname] = thelastname
+        ahash[:firstname] = thefirstname
+        ahash[:dateofbirth] = thedateofbirth
+        ahash[:gender] = thegender
+        ahash[:visitstart] = thevisitstart
+        ahash[:discard] = thediscard
+        ahash[:por] = thepor
+        ahash[:docid] = element.elements["Document/Id"].get_text
+        ahash[:family] = element.elements["Family"].get_text
+        ahash[:kind] = element.elements["Kind"].get_text if element.elements["Kind"]
+        ahash[:type] = element.elements["Type"].get_text if element.elements["Type"]
+        ahash[:confidence] = element.elements["Confidence"].text.to_i
+        ahash[:userstatus] = element.elements["ClarificationStatus/UserStatus"].get_text
+        ahash[:systemstatus] = element.elements["ClarificationStatus/SystemStatus"].get_text
+        ahash[:documentationText] = element.elements["ClarificationResponse/DocumentationText"].get_text
+        $claris << ahash
+    }
+    #puts "family: #{element.elements["family"]}, kind: #{element.elements["kind"]}, type: #{element.elements["type"]}, confidence: #{element.elements["confidence"]}" }
+    $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
+    erb:showclarisDQR
+end
+
+post '/showprevfileDQR' do
+    $currentfile = $currentfile - 1 if $currentfile > 0
+    
+    $thefile = $thefiles[$currentfile]
+    aString = $thetempfiles[$currentfile]
+    doc = REXML::Document.new aString
+    themrn = doc.elements["ns2:DqrClarifications/Person/Id"].get_text
+    thevisit = doc.elements["ns2:DqrClarifications/EncounterId"].get_text
+    theauthor = ""
+    thecorrelationid = ""
+    thelastname = ""
+    thefirstname = ""
+    thedateofbirth =  doc.elements["ns2:DqrClarifications/Person/DOB"].get_text
+    thegender = doc.elements["ns2:DqrClarifications/Person/Gender"].get_text
+    thevisitstart = ""
+    thediscard = ""
+    thepor = ""
+    
+    $claris = []
+    doc.elements.each("ns2:DqrClarifications/Clarification") { |element|
+        ahash = {}
+        ahash[:mrn] = themrn
+        ahash[:visit] = thevisit
+        ahash[:author] = theauthor
+        ahash[:correlationid] = thecorrelationid
+        ahash[:lastname] = thelastname
+        ahash[:firstname] = thefirstname
+        ahash[:dateofbirth] = thedateofbirth
+        ahash[:gender] = thegender
+        ahash[:visitstart] = thevisitstart
+        ahash[:discard] = thediscard
+        ahash[:por] = thepor
+        ahash[:docid] = element.elements["Document/Id"].get_text
+        ahash[:family] = element.elements["Family"].get_text
+        ahash[:kind] = element.elements["Kind"].get_text if element.elements["Kind"]
+        ahash[:type] = element.elements["Type"].get_text if element.elements["Type"]
+        ahash[:confidence] = element.elements["Confidence"].text.to_i
+        ahash[:userstatus] = element.elements["ClarificationStatus/UserStatus"].get_text
+        ahash[:systemstatus] = element.elements["ClarificationStatus/SystemStatus"].get_text
         ahash[:documentationText] = element.elements["ClarificationResponse/DocumentationText"].get_text
         $claris << ahash
     }
@@ -280,104 +375,21 @@ post '/showfirsttestfileDQR' do
         $thetempfiles << file[:tempfile].read
     }
     $currentfile = 0
-    aString = StringIO.new(string=$thetempfiles[$currentfile])
-    $rows = aString.readlines.map { |line| line }
-    $theFile = {}
-    $theFile[:docname] = $thefiles[$currentfile]
-    $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
-    mrnstring = $theFile[:mrn]
-    $theFile[:visit] = $rows[1].gsub("visitcode=","")
-    $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
-    $theFile[:visitadd] = $theFile[:setvisitadd].gsub(/_.+_/, "").gsub('_','')
-    if $theFile[:setvisitadd].scan(/_.+_/)[0]
-        $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
-    else
-        $theFile[:setadd] = ""
-    end
-    $theFile[:author] = $rows[2].gsub("authorid=","")
-    $theFile[:correlationid] = $rows[3].gsub("correlationid=","")
-    $theFile[:lastname] = $rows[4].gsub("lastName=","")
-    $theFile[:firstname] = $rows[5].gsub("firstName=","")
-    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","")
-    $theFile[:gender] = $rows[7].gsub("gender=","")
-    $theFile[:visitstart] = $rows[8].gsub("visitStart=","")
-    $theFile[:discard] = $rows[9].gsub("isDiscard=","")
-    $theFile[:por] = $rows[10].gsub("isPOR=","")
-    $theFile[:text] = ""
-    $rows.each_index {|arownumber|
-    $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
+    getcurrentfile
     
     erb:showtestfileDQR
 end
 
 post '/shownexttestfileDQR' do
     $currentfile = $currentfile + 1 if $currentfile < $thefiles.size - 1
-    aString = StringIO.new(string=$thetempfiles[$currentfile])
-    $rows = aString.readlines.map { |line| line }
-    $theFile = {}
-    $theFile[:docname] = $thefiles[$currentfile]
-    $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
-    mrnstring = $theFile[:mrn]
-    $theFile[:visit] = $rows[1].gsub("visitcode=","")
-    $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
-    if $visitadd == ""
-        $theFile[:visitadd] = $theFile[:setvisitadd].gsub(/_.+_/, "").gsub('_','')
-        else
-        $theFile[:visitadd] = $visitadd
-    end
-    if $theFile[:setvisitadd].scan(/_.+_/)[0]
-        $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
-        else
-        $theFile[:setadd] = ""
-    end
-    $theFile[:author] = $rows[2].gsub("authorid=","")
-    $theFile[:correlationid] = $rows[3].gsub("correlationid=","")
-    $theFile[:lastname] = $rows[4].gsub("lastName=","")
-    $theFile[:firstname] = $rows[5].gsub("firstName=","")
-    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","")
-    $theFile[:gender] = $rows[7].gsub("gender=","")
-    $theFile[:visitstart] = $rows[8].gsub("visitStart=","")
-    $theFile[:discard] = $rows[9].gsub("isDiscard=","")
-    $theFile[:por] = $rows[10].gsub("isPOR=","")
-    $theFile[:text] = ""
-    $rows.each_index {|arownumber|
-        $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
+    getcurrentfile
     
     erb:showtestfileDQR
 end
 
 post '/showprevtestfileDQR' do
     $currentfile = $currentfile - 1 if $currentfile > 0
-    aString = StringIO.new(string=$thetempfiles[$currentfile])
-    $rows = aString.readlines.map { |line| line }
-    $theFile = {}
-    $theFile[:docname] = $thefiles[$currentfile]
-    $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
-    mrnstring = $theFile[:mrn]
-    $theFile[:visit] = $rows[1].gsub("visitcode=","")
-    $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
-    if $visitadd == ""
-        $theFile[:visitadd] = $theFile[:setvisitadd].gsub(/_.+_/, "").gsub('_','')
-    else
-        $theFile[:visitadd] = $visitadd
-    end
-    if $theFile[:setvisitadd].scan(/_.+_/)[0]
-        $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
-        else
-        $theFile[:setadd] = ""
-    end
-    $theFile[:author] = $rows[2].gsub("authorid=","")
-    $theFile[:correlationid] = $rows[3].gsub("correlationid=","")
-    $theFile[:lastname] = $rows[4].gsub("lastName=","")
-    $theFile[:firstname] = $rows[5].gsub("firstName=","")
-    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","")
-    $theFile[:gender] = $rows[7].gsub("gender=","")
-    $theFile[:visitstart] = $rows[8].gsub("visitStart=","")
-    $theFile[:discard] = $rows[9].gsub("isDiscard=","")
-    $theFile[:por] = $rows[10].gsub("isPOR=","")
-    $theFile[:text] = ""
-    $rows.each_index {|arownumber|
-        $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
+    getcurrentfile
     
     erb:showtestfileDQR
 end
@@ -397,23 +409,24 @@ post '/createtestfilesDQR' do
         afilename = "./inputarchive/#{$theFile[:docname]}.#{$theMod}_capd.txt"
         $createdfiles << afilename
         afile = File.open(afilename, "w")
-        afile.puts("mrn=#{$theFile[:mrn]}")
+        afile.puts("mrn=#{$theFile[:mrn]}\r\n")
      
-        thefullvisit = "#{$theFile[:mrn]}_#{$theFile[:setadd]}_#{$visitadd}"
+        thefullvisit = "#{$theFile[:mrn].chomp}@#{$theFile[:setadd]}@#{$visitadd}"
         
-        afile.puts("visitcode=#{thefullvisit}")
-        afile.puts("authorid=#{$theFile[:author]}")
-        afile.puts("correlationid=#{$theFile[:correlationid]}")
-        afile.puts("lastName=#{$theFile[:lastname]}")
-        afile.puts("firstName=#{$theFile[:firstname]}")
+        afile.puts("visitcode=#{thefullvisit}\r\n")
+        afile.puts("authorid=#{$theFile[:author]}\r\n")
+        afile.puts("correlationid=#{$theFile[:correlationid]}\r\n")
+        afile.puts("lastName=#{$theFile[:lastname]}\r\n")
+        afile.puts("firstName=#{$theFile[:firstname]}\r\n")
         
-        afile.puts("dateOfBirth=#{$theFile[:dateofbirth]}")
-        afile.puts("gender=#{$theFile[:gender]}")
-        afile.puts("visitStart=#{$theFile[:visitstart]}")
-        afile.puts("isDiscard=#{$theFile[:discard]}")
-        afile.puts("isPOR=#{$theFile[:por]}")
-        $theFile[:text] = $theFile[:text].gsub(/<EncounterId>.+<\/EncounterId>/, "<EncounterId>#{thefullvisit}<\/EncounterId>")
-        afile.puts("#{$theFile[:text]}")
+        afile.puts("dateOfBirth=#{$theFile[:dateofbirth]}\r\n")
+        afile.puts("gender=#{$theFile[:gender]}\r\n")
+        afile.puts("visitStart=#{$theFile[:visitstart]}\r\n")
+        afile.puts("isDiscard=#{$theFile[:discard]}\r\n")
+        afile.puts("isPOR=#{$theFile[:por]}\r\n")
+        
+        $theFiletext.each_index {|aindex| $theFiletext[aindex] = $theFiletext[aindex].gsub(/<EncounterId>.+<\/EncounterId>/, "<EncounterId>#{thefullvisit}<\/EncounterId>")}
+        $theFiletext.each {|aline| afile.puts("#{aline}\r\n")}
         afile.close
         #send_file(afilename, :disposition => 'attachment')
         $currentfile = $currentfile + 1
@@ -429,28 +442,66 @@ def getcurrentfile
     aString = StringIO.new(string=$thetempfiles[$currentfile])
     $rows = aString.readlines.map { |line| line }
     $theFile = {}
+    $theFile[:size] = $rows.size
     $theFile[:docname] = $thefiles[$currentfile]
     $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
     mrnstring = $theFile[:mrn]
-    $theFile[:visit] = $rows[1].gsub("visitcode=","")
+    $theFile[:visit] = $rows[1].gsub("visitcode=","").chomp
     $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
-    if $theFile[:setvisitadd].scan(/_.+_/)[0]
-        $theFile[:setadd] = $theFile[:setvisitadd].scan(/_.+_/)[0].gsub('_','')
+    astring = $theFile[:setvisitadd].scan(/@.+@/)[0]
+    if astring
+        $theFile[:setadd] = astring.gsub('@','')
+        $theFile[:visitadd] = $theFile[:setvisitadd].gsub(astring, '')
+        #$theFile[:visitadd] = $theFile[:setvisitadd]
         else
         $theFile[:setadd] = ""
+        $theFile[:visitadd] = $theFile[:setvisitadd]
     end
-    $theFile[:author] = $rows[2].gsub("authorid=","")
-    $theFile[:correlationid] = $rows[3].gsub("correlationid=","")
-    $theFile[:lastname] = $rows[4].gsub("lastName=","")
-    $theFile[:firstname] = $rows[5].gsub("firstName=","")
-    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","")
-    $theFile[:gender] = $rows[7].gsub("gender=","")
-    $theFile[:visitstart] = $rows[8].gsub("visitStart=","")
-    $theFile[:discard] = $rows[9].gsub("isDiscard=","")
-    $theFile[:por] = $rows[10].gsub("isPOR=","")
-    $theFile[:text] = ""
+    $theFile[:author] = $rows[2].gsub("authorid=","").chomp
+    $theFile[:correlationid] = $rows[3].gsub("correlationid=","").chomp
+    $theFile[:lastname] = $rows[4].gsub("lastName=","").chomp
+    $theFile[:firstname] = $rows[5].gsub("firstName=","").chomp
+    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","").chomp
+    $theFile[:gender] = $rows[7].gsub("gender=","").chomp
+    $theFile[:visitstart] = $rows[8].gsub("visitStart=","").chomp
+    $theFile[:discard] = $rows[9].gsub("isDiscard=","").chomp
+    $theFile[:por] = $rows[10].gsub("isPOR=","").chomp
+    $theFiletext = []
     $rows.each_index {|arownumber|
-        $theFile[:text] = $theFile[:text] + $rows[arownumber] if arownumber > 10}
+    $theFiletext << $rows[arownumber].chomp if arownumber > 10 }
+end
+
+def getcurrentfile_
+    aString = StringIO.new(string=$thetempfiles[$currentfile])
+    $rows = aString.readlines.map { |line| line }
+    $theFile = {}
+    $theFile[:size] = $rows.size
+    $theFile[:docname] = $thefiles[$currentfile]
+    $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
+    mrnstring = $theFile[:mrn]
+    $theFile[:visit] = $rows[1].gsub("visitcode=","").chomp
+    $theFile[:setvisitadd] = $theFile[:visit].gsub(/#{mrnstring}/,"")
+    astring = $theFile[:setvisitadd].scan(/_.+_/)[0]
+    if astring
+        $theFile[:setadd] = astring.gsub('_','')
+        $theFile[:visitadd] = $theFile[:setvisitadd].gsub(astring, '')
+        #$theFile[:visitadd] = $theFile[:setvisitadd]
+        else
+        $theFile[:setadd] = ""
+        $theFile[:visitadd] = $theFile[:setvisitadd]
+    end
+    $theFile[:author] = $rows[2].gsub("authorid=","").chomp
+    $theFile[:correlationid] = $rows[3].gsub("correlationid=","").chomp
+    $theFile[:lastname] = $rows[4].gsub("lastName=","").chomp
+    $theFile[:firstname] = $rows[5].gsub("firstName=","").chomp
+    $theFile[:dateofbirth] = $rows[6].gsub("dateOfBirth=","").chomp
+    $theFile[:gender] = $rows[7].gsub("gender=","").chomp
+    $theFile[:visitstart] = $rows[8].gsub("visitStart=","").chomp
+    $theFile[:discard] = $rows[9].gsub("isDiscard=","").chomp
+    $theFile[:por] = $rows[10].gsub("isPOR=","").chomp
+    $theFiletext = []
+    $rows.each_index {|arownumber|
+    $theFiletext << $rows[arownumber].chomp if arownumber > 10 }
 end
 
 post '/createresponsefileDQR' do
@@ -482,47 +533,7 @@ post '/createresponsefileDQR' do
     erb:showclarisDQR
 end
 
-post '/shownextfileDQR' do
-    $currentfile = $currentfile + 1 if $currentfile < $thefiles.size - 1
-    
-    $thefile = $thefiles[$currentfile]
-    aString = $thetempfiles[$currentfile]
-    doc = REXML::Document.new aString
-    $claris = []
-    doc.elements.each("ns2:DqrClarifications/Clarification") { |element|
-        ahash = {}
-        ahash[:family] = element.elements["Family"].get_text
-        ahash[:kind] = element.elements["Kind"].get_text if element.elements["Kind"]
-        ahash[:type] = element.elements["Type"].get_text if element.elements["Type"]
-        ahash[:confidence] = element.elements["Confidence"].text.to_i
-        ahash[:documentationText] = element.elements["ClarificationResponse/DocumentationText"].get_text
-        $claris << ahash
-    }
-    #puts "family: #{element.elements["family"]}, kind: #{element.elements["kind"]}, type: #{element.elements["type"]}, confidence: #{element.elements["confidence"]}" }
-    $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
-    erb:showclarisDQR
-end
 
-post '/showprevfileDQR' do
-    $currentfile = $currentfile - 1 if $currentfile > 0
-    
-    $thefile = $thefiles[$currentfile]
-    aString = $thetempfiles[$currentfile]
-    doc = REXML::Document.new aString
-    $claris = []
-    doc.elements.each("ns2:DqrClarifications/Clarification") { |element|
-        ahash = {}
-        ahash[:family] = element.elements["Family"].get_text
-        ahash[:kind] = element.elements["Kind"].get_text if element.elements["Kind"]
-        ahash[:type] = element.elements["Type"].get_text if element.elements["Type"]
-        ahash[:confidence] = element.elements["Confidence"].text.to_i
-        ahash[:documentationText] = element.elements["ClarificationResponse/DocumentationText"].get_text
-        $claris << ahash
-    }
-    #puts "family: #{element.elements["family"]}, kind: #{element.elements["kind"]}, type: #{element.elements["type"]}, confidence: #{element.elements["confidence"]}" }
-    $claris = $claris.sort_by {|aclari| -aclari[:confidence]}
-    erb:showclarisDQR
-end
 
 post '/showclarisDQR' do
     $thefile = params["myfile"][:filename]
