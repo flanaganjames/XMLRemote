@@ -241,7 +241,7 @@ post '/showfirstfileDQR' do
     thevisitstart = ""
     thediscard = ""
     thepor = ""
-    
+    $notshown = 'NOT_SHOWN'
     $claris = []
     doc.elements.each("ns2:DqrClarifications/Clarification") { |element|
         ahash = {}
@@ -406,7 +406,7 @@ post '/createtestfilesDQR' do
     $theMod = params["mod"]
     while $currentfile < $thefiles.size do
         getcurrentfile
-        afilename = "./inputarchive/#{$theFile[:docname]}.#{$theMod}_capd.txt"
+        afilename = "./inputarchive/#{$theFile[:docname]}#{$theMod}_capd.txt"
         $createdfiles << afilename
         afile = File.open(afilename, "w")
         afile.puts("mrn=#{$theFile[:mrn]}\r\n")
@@ -443,7 +443,7 @@ def getcurrentfile
     $rows = aString.readlines.map { |line| line }
     $theFile = {}
     $theFile[:size] = $rows.size
-    $theFile[:docname] = $thefiles[$currentfile]
+    $theFile[:docname] = $thefiles[$currentfile].gsub('_capd.txt','').gsub('._capd.txt','')
     $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
     mrnstring = $theFile[:mrn]
     $theFile[:visit] = $rows[1].gsub("visitcode=","").chomp
@@ -476,7 +476,7 @@ def getcurrentfile_
     $rows = aString.readlines.map { |line| line }
     $theFile = {}
     $theFile[:size] = $rows.size
-    $theFile[:docname] = $thefiles[$currentfile]
+    $theFile[:docname] = $thefiles[$currentfile].gsub('_capd.txt','').gsub('._capd.txt','')
     $theFile[:mrn] = $rows[0].gsub("mrn=","").chomp
     mrnstring = $theFile[:mrn]
     $theFile[:visit] = $rows[1].gsub("visitcode=","").chomp

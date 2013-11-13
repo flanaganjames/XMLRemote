@@ -11,31 +11,31 @@ aForm = <<-eos
 <input type = "submit" name="return" value = "Prev File" formaction = "/showprevfileDQR"/>
 <input type = "submit" name="return" value = "Return to Choose File" formaction = "/outputDQR"/>
 
-<div> <table>
+<div> <table border="1">
 <td>Clarifications for:</td> <th> #{$thefile} </th>
 </table> </div>
-<div> <table> 
+<div> <table border="1"> 
  
-<th>Family</th> <th>Kind</th><th>Confidence</th><th>MRN</th><th>Visit</th><th>SystemStatus</th><th>UserStatus</th><th>Evidence</th><th>Respond</th>
+<th>Family</th> <th>Kind</th><th>Confidence</th><th>MRN</th><th>Visit</th><th>SystemStatus</th><th>UserStatus</th><th>Evidence</th><th></th><th>Respond</th>
 eos
 
 $claris.each_index {|i| aclari = $claris[i]
-if aclari[:confidence] == 3
+if (aclari[:confidence] == 3) && (aclari[:userstatus] == $notshown)
 	button = "<td> <input type = \"submit\" style=\"font-face: 'Comic Sans MS'; font-size: larger; color: teal; background-color: teal; border: 3pt ridge lightgrey\" name=\"clarification\" value = \"#{i}\" formaction = \"/chooseresponseDQR\"/> </td>"
 else
 	button = ""
 end
 aForm = aForm + <<-eos
 <tr>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:family]}" size = “20”> </td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:kind]}" size = “20”> </td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:confidence]}" size = “4”> </td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:mrn]}" size = “10”> </td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:visit]}" size = “20”> </td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:systemstatus]}” size = “10”> </td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:userstatus]}” size = “10”> </td>
-<td> <input type = "text" name = "clari#{i}" value ="#{aclari[:documentationText]}" size = “50”> </td>
-#{button}
+<td> #{aclari[:family]} </td>
+<td> #{aclari[:kind]} </td>
+<td> #{aclari[:confidence]}</td>
+<td> #{aclari[:mrn]}</td>
+<td> #{aclari[:visit]} </td>
+<td> #{aclari[:systemstatus]} </td>
+<td> #{aclari[:userstatus]} </td>
+<td> #{aclari[:documentationText]} </td>
+<td>#{button}</td>
 </tr>
 eos
 }
